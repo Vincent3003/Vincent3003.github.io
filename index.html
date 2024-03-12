@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>My Portfoliio</title>
+        <!-- Bootstrap CSS -->
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha38"> -->
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="media_queries.css">
+
+    </head>
+    <body>
+        <nav id="desktop-nav">
+            <div class="logo">Chi Dang</div>
+
+            <div>
+                <ul class="nav-link">
+                    <li><a href="#aboutMe">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contactMe">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Hamburger Menu for whom use smartphone to access -->
+        <nav id="hamburger-nav">
+            <div class="logo">Chi Dang</div>
+            <div class="hamburger-menu">
+                <div class="hamburger-icon" onclick="toggleMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="menu-clicks">
+                    <li><a href="#aboutMe" onclick="toggleMenu()">About Me</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+                    <li><a href="#contactMe" onclick="toggleMenu()">Contact Me</a></li>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Profile Section  -->
+        <section id="profile">
+            <div class="section-pic-container">
+                <img src="./assets/Dang_Chi.png" alt="My profile">
+            </div>
+
+            <div class="section-text">
+                <p class="section-text-p1">Hello, I'm</p>
+                <h2 class="title">Chi Dang</h2>
+                <p class="section-text-p2">Data Analyst</p>
+
+                <div class="button-container">
+                    <button class="button button-color2" 
+                        onclick="window.open('./assets/ChiDang_Resume.pdf')">Open Resume</button>
+
+                        <button class="button button-color1" 
+                        onclick="location.href('./#contactMe')">Contact Me</button>
+                </div>
+
+                <div id="social-container">
+                    <img src="./assets/linkedin.png"
+                        alt="My LinkedIn Profile"
+                        class="icon" 
+                        onclick="location.href='https://www.linkedin.com/in/chi-dang-d08a03/'"/>
+                    <img src="./assets/github.png"
+                        alt="My GitHub Profile"
+                        class="icon" 
+                        onclick="location.href='https://github.com/Vincent3003'"/>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Me Section  -->
+        <section id="about">
+            <p class="section-text-p1">Get to know more</p>
+            <h1 class="title">About Me</h1>
+            <div class="section-container"> 
+                <div class="section-pic-container">
+                    <img src="./assets/Dang_Chi.png"
+                    alt="My Profile picture"
+                    class="about-pic"/>
+                </div>
+
+                <div class="about-detail">
+                    <div class="about-container">
+                        <div class="detail-container">
+                            <img src="./assets/experience.png"
+                                alt="Experience Icon"
+                                class="icon"/>
+                            <h3>Experience</h3>
+                            <li>Recently graduated from Drake University</li>
+                            <li>And have 2+ years of working in the Drake University IT department</li>
+                        </div>
+
+                        <div class="detail-container">
+                            <img src="./assets/education.png"
+                            alt="Education Icon" class="icon"/>
+                            <h3>Education</h3>
+                            <p>B.Sc. in Computer Science</p>
+                        </div>
+                    </div>
+
+                    <div class="text-container">
+                        <p>HIiiiiiiiiiii</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
+                onclick="location.href='./#experience'"/>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience">
+            <p class="section-text-p1"> Explore My</p>
+            <h3 class="title">Experience</h3>
+            <div class="experience-detail">
+                <div class="about-container">
+                    <div class="detail-container">
+                        <h2 class="experience-title">Work</h2>
+                        <div class="article-container">
+                            <div class="work">
+                                <h4>EMC Insurance Companies</h4>
+                                <h4><em>Intern - Strategic Analyst</em></h4>
+                                <ul>
+                                    <li>Enhanced data integrity for the Michigan Cancelled Policies List project by 20%, 
+                                        employing innovative Denodo SQL queries and ensuring compliance with Michigan 
+                                        regulations for quarterly reports.</li>
+                                    <li>Implemented SQL queries on the Denodo platform and VLOOKUP in Microsoft Excel 
+                                        with the strategic analytics team to create a precise Underwriting Audit File 
+                                        that improved accuracy and efficiency by more than 5%.</li>
+                                </ul>
+                            </div>
+                            <br/>
+                            <div class="work">
+                                <h4>Drake University</h4>
+                                <h4><em>Support Center Imaging Student Tech</em></h4>
+                                <ul>
+                                    <li>Increased configuration efficiency by 20% and decreased deployment costs by 15% 
+                                        by deploying over 300 computers using automated scripting and bulk imaging techniques 
+                                        for faculty, staff, and labs.</li>
+                                    <li>Collaborated with cross-functional teams to identify and resolve software compatibility issues, reducing deployment
+                                        errors by 25% and improving overall system reliability.</li>
+                                </ul>
+                            </div>
+                            <br/>
+                            <div class="work">
+                                <h4>Drake University</h4>
+                                <h4><em>Support Center Student Tech</em></h4>
+                                <ul>
+                                    <li>Delivered Tier 1 technical support for over 1,000 students, faculty, and staff by rapidly resolving over 500 IT issues
+                                        annually through expertise in troubleshooting, diagnostics, and repair.</li>
+                                    <li>Expedited resolution of over 300 IT issues annually by leveraging advanced troubleshooting tools and
+                                        methodologies, leading to a 50% reduction in response times and a 10% improvement in customer satisfaction.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail-container">
+                        <h2 class="experience-title">Leadership & Community Engagement</h2>
+                        <div class="article-container">
+                            <div class="leadership">
+                                <h4>Drake Association of Technology Advancement Club</h4>
+                                <h4><em>Secretary</em></h4>
+                                <ul>
+                                    <li>Revised and updated communication database for 50+ members, ensuring each member received timely information
+                                        on club events, meetings, and activities, resulting in a 30% increase in attendance.</li>
+                                    <li>Maintained up-to-date club activity database with 95% accuracy rate by regularly inputting new information and
+                                        verifying existing data entries to support informed decision-making.</li>
+                                </ul>
+                            </div>
+                            <br/>
+                            <div class="leadership">
+                                <h4>Drake University</h4>
+                                <h4><em>Peer Research and Access Services Student Assistant</em></h4>
+                                <ul>
+                                    <li>Provided comprehensive research assistance to over 100 students and faculty annually through chat and phone,
+                                        ensuring less than 5 pending inquiries at any time.</li>
+                                    <li>Achieved a 10% increase in patron satisfaction through swift resolution of circulation desk issues, facilitating positive
+                                        interactions and driving loyalty among library visitors.</li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
+                onclick="location.href='./#project'"/>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <p class="section-text-p1">Browse My Recent</p>
+            <h1 class="title">Projects</h1>
+            <div class="experience-detail">
+                <div class="about-container">
+                    <div class="detail-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-1.png" alt="Project 1 pic"
+                                class="project-img"/>
+                        </div>
+                        <h2 class="experience-title project-title">Project One</h2>
+                        <p style="color: black;"><b>Coming Soon!</b></p>
+                        <br/>
+                        <div class="button-container">
+                            <button class="button button-color-2 project-button"
+                                onclick="location.href='https://github.com/Vincent3003/STAT172_FinalProject'">GitHub</button>
+                        </div>
+                    </div>
+    
+                    <div class="detail-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-2.png" alt="Project 2 pic"
+                                class="project-img"/>
+                        </div>
+                        <h2 class="experience-title project-title">Project Two</h2>
+                        <p style="color: black;"><b>Coming Soon!</b></p>
+                        <br/>
+                        <div class="button-container">
+                            <button class="button button-color-2 project-button"
+                                onclick="location.href='https://github.com/Vincent3003/STAT172_FinalProject'">GitHub</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="Arrow Icon" class="icon arrow"
+            onclick="location.href='./#contactMe'"/>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2 class="title"> Contact Me </h2>
+            <div class="contact-info-upper-container">
+                <!-- Email part -->
+                <div class="contact-info-container">
+                    <img src="./assets/email.png" alt="Email Icon"
+                    class="icon contact-icon"/>
+                    <p style="color: black;"><a href="alisondang61@gmail.com"></a><b>Email me:</b> alisondang61@gmail.com</p>
+                </div>
+
+                <!-- LinkedIn part -->
+                <div class="contact-info-container">
+                    <img src="./assets/linkedin.png" alt="LinkedIn Icon"
+                    class="icon contact-icon"/>
+                    <p style="color: black;"><a href="https://www.linkedin.com/in/chi-dang-d08a03/"></a><b>LinkedIn:</b> Chi Dang</p>
+                </div>
+            </div>
+
+        </section>
+        <script src="script.js"></script>
+    </body>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-link">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contactMe">Contact Me</a></li>
+                </ul>
+            </div>
+            <p style="color: black;">Copyright &#169; 2023 Chi Dang. All Rights Reserved.</p>
+        </nav>
+    </footer>
+
+</html>

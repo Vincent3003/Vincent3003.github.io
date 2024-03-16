@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>My Portfoliio</title>
+        <title>My Website</title>
         <!-- Bootstrap CSS -->
         <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha38"> -->
         <link rel="stylesheet" href="style.css">
@@ -13,7 +13,7 @@
     </head>
     <body>
         <nav id="desktop-nav">
-            <div class="logo">Chi Dang</div>
+            <div class="logo" onclick="location.href('./#contactMe')">Welcome to my page!</div>
 
             <div>
                 <ul class="nav-link">
@@ -52,15 +52,14 @@
 
             <div class="section-text">
                 <p class="section-text-p1">Hello, I'm</p>
-                <h2 class="title">Chi Dang</h2>
+                <h3 class="title">Chi Dang</h3>
                 <p class="section-text-p2">Data Analyst</p>
 
                 <div class="button-container">
                     <button class="button button-color2" 
-                        onclick="window.open('./assets/ChiDang_Resume.pdf')">Open Resume</button>
-
-                        <button class="button button-color1" 
-                        onclick="location.href('./#contactMe')">Contact Me</button>
+                        onclick="window.open('./assets/ChiDang_Resume_2.pdf')">Open Resume</button>
+                    <button class="button button-color1" 
+                    onclick="location.href('#contactMe')">Contact Me</button>
                 </div>
 
                 <div id="social-container">
@@ -78,12 +77,12 @@
         </section>
 
         <!-- About Me Section  -->
-        <section id="about">
+        <section id="aboutMe">
             <p class="section-text-p1">Get to know more</p>
             <h1 class="title">About Me</h1>
             <div class="section-container"> 
                 <div class="section-pic-container">
-                    <img src="./assets/Dang_Chi.png"
+                    <img src="./assets/mypic.JPG"
                     alt="My Profile picture"
                     class="about-pic"/>
                 </div>
@@ -95,20 +94,49 @@
                                 alt="Experience Icon"
                                 class="icon"/>
                             <h3>Experience</h3>
-                            <li>Recently graduated from Drake University</li>
-                            <li>And have 2+ years of working in the Drake University IT department</li>
+                            <p>Former Strategic Analyst at EMC Insurance Companies</p>
+                            <p>Had 2+ years of working in the Drake University IT department.</p>
                         </div>
 
                         <div class="detail-container">
                             <img src="./assets/education.png"
                             alt="Education Icon" class="icon"/>
                             <h3>Education</h3>
-                            <p>B.Sc. in Computer Science</p>
+                            <p>B.Sc. in Computer Science on December 2023</p>
                         </div>
                     </div>
 
                     <div class="text-container">
-                        <p>HIiiiiiiiiiii</p>
+                        <p>Hello everyone, my name is Chi, and I am from Vietnam. I have been interested in numbers and have loved to analyze them since I was young, 
+                            so I decided to study Computer Science and Data Analytics at Drake University. 
+                           Along with my double majors, I also minored in business studies since the world of finance has always fascinated me. </p>
+                            <br>
+                        <p>I recently graduated (just last December, yay!) and received my Bachelor of Science degree in Computer Science. 
+                            I also had an opportunity to receive a Presidential Scholarship and the International Student Grant Scholarship, underscoring my commitment to academic excellence.   
+                        During my undergraduate studies, I have gained a strong background in both technical and business fields. 
+                            I have developed my skills in different programming languages, including Python, R, SQL, and JavaScript, 
+                            while also achieving proficiency in various tools and technologies such as GitHub, PowerBI, Tableau, and Jira. </p>
+                            <br>
+                        <p>Throughout my professional experience, such as EMC Insurance Companies internship and roles with Drake University's support centers, 
+                            I can tackle real-world challenges with my technical skills and sharpen my knowledge! 
+                            Whether I'm utilizing strategic SQL queries to improve data accuracy at EMC Insurance Companies or collaborating with others to automate deployment processes 
+                            while working at Drake University's support center, I'm always eager to apply my expertise.</p>     
+                            <br>
+                        <p>Beyond my technical prowess, I am a dedicated team player with strong leadership and communication skills. 
+                            As the former Secretary of the Drake Association of Technology Advancement (DATA) Club, I excelled in managing communications, 
+                            maintaining accurate databases, and supporting informed decision-making processes. As a Peer Research and Access Services Student Assistant at Drake University Cowles Library, 
+                            I provided exceptional customer service and resolved circulation desk issues smoothly, driving patron satisfaction.</p>
+                            <br>
+                        <p>I am committed to continuous learning and growth, as shown by my IBM Data Science and Meta Front-End Developer Professional Certifications. 
+                            I am passionate about innovation and have a growth mindset, which is why I encourage myself to explore new technologies and techniques in data analytics and computer science, 
+                            so I can contribute my skills and passion to drive meaningful impact and growth.</p>
+                            <br>
+                        <p>My goal is to become a skilled data analyst who can use my programming, statistics, and database management systems knowledge to unlock valuable insights 
+                            and drive data-driven decision-making across organizations. With expertise in techniques like regression, classification, neural networks, and machine learning models 
+                            combined with proficiency in tools like Python, R, SQL, PowerBI, and Tableau, I am looking forward to working with others in the data analytics field and making a positive difference.</p>
+                            <br>
+                        <p>Feel free to explore my portfolio of projects and experiences, and don't hesitate to reach out if you have any questions or opportunities for collaboration.</p>
+                        <br> <p>- Chi -</p>
                     </div>
                 </div>
             </div>
@@ -127,7 +155,7 @@
                         <div class="article-container">
                             <div class="work">
                                 <h4>EMC Insurance Companies</h4>
-                                <h4><em>Intern - Strategic Analyst</em></h4>
+                                <p><em>Intern - Strategic Analyst</em></p>
                                 <ul>
                                     <li>Enhanced data integrity for the Michigan Cancelled Policies List project by 20%, 
                                         employing innovative Denodo SQL queries and ensuring compliance with Michigan 
@@ -136,9 +164,7 @@
                                         with the strategic analytics team to create a precise Underwriting Audit File 
                                         that improved accuracy and efficiency by more than 5%.</li>
                                 </ul>
-                            </div>
-                            <br/>
-                            <div class="work">
+                                    <br>
                                 <h4>Drake University</h4>
                                 <h4><em>Support Center Imaging Student Tech</em></h4>
                                 <ul>
@@ -148,8 +174,7 @@
                                     <li>Collaborated with cross-functional teams to identify and resolve software compatibility issues, reducing deployment
                                         errors by 25% and improving overall system reliability.</li>
                                 </ul>
-                            </div>
-                            <br/>
+                            </div> <br>
                             <div class="work">
                                 <h4>Drake University</h4>
                                 <h4><em>Support Center Student Tech</em></h4>
@@ -197,7 +222,7 @@
         </section>
 
         <!-- Projects Section -->
-        <section id="projects">
+        <section id="project">
             <p class="section-text-p1">Browse My Recent</p>
             <h1 class="title">Projects</h1>
             <div class="experience-detail">
@@ -208,7 +233,7 @@
                                 class="project-img"/>
                         </div>
                         <h2 class="experience-title project-title">Project One</h2>
-                        <p style="color: black;"><b>Coming Soon!</b></p>
+                        <p><b>Coming Soon!</b></p>
                         <br/>
                         <div class="button-container">
                             <button class="button button-color-2 project-button"
@@ -222,7 +247,21 @@
                                 class="project-img"/>
                         </div>
                         <h2 class="experience-title project-title">Project Two</h2>
-                        <p style="color: black;"><b>Coming Soon!</b></p>
+                        <p ><b>Coming Soon!</b></p>
+                        <br/>
+                        <div class="button-container">
+                            <button class="button button-color-2 project-button"
+                                onclick="location.href='https://github.com/Vincent3003/STAT172_FinalProject'">GitHub</button>
+                        </div>
+                    </div>
+
+                    <div class="detail-container color-container">
+                        <div class="article-container">
+                            <img src="./assets/project-2.png" alt="Project 3 pic"
+                                class="project-img"/>
+                        </div>
+                        <h2 class="experience-title project-title">Project Three</h2>
+                        <p><b>Coming Soon!</b></p>
                         <br/>
                         <div class="button-container">
                             <button class="button button-color-2 project-button"
@@ -236,21 +275,22 @@
         </section>
 
         <!-- Contact Section -->
-        <section id="contact">
+        <section id="contactMe">
             <h2 class="title"> Contact Me </h2>
             <div class="contact-info-upper-container">
                 <!-- Email part -->
                 <div class="contact-info-container">
                     <img src="./assets/email.png" alt="Email Icon"
                     class="icon contact-icon"/>
-                    <p style="color: black;"><a href="alisondang61@gmail.com"></a><b>Email me:</b> alisondang61@gmail.com</p>
+                    <p><a href="mailto:alisondang61@gmail.com"><b>Email me:</b></a> alisondang61@gmail.com</p>
                 </div>
 
                 <!-- LinkedIn part -->
                 <div class="contact-info-container">
                     <img src="./assets/linkedin.png" alt="LinkedIn Icon"
-                    class="icon contact-icon"/>
-                    <p style="color: black;"><a href="https://www.linkedin.com/in/chi-dang-d08a03/"></a><b>LinkedIn:</b> Chi Dang</p>
+                    class="icon contact-icon"
+                    onclick="location.href='https://www.linkedin.com/in/chidang0803/'"/>
+                    <p><a href="https://www.linkedin.com/in/chidang0803/"><b>LinkedIn:</b> </a>Chi Dang</p>
                 </div>
             </div>
 
@@ -262,14 +302,14 @@
         <nav>
             <div class="nav-links-container">
                 <ul class="nav-link">
-                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#aboutMe">About Me</a></li>
                     <li><a href="#experience">Experience</a></li>
-                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#project">Projects</a></li>
                     <li><a href="#contactMe">Contact Me</a></li>
                 </ul>
             </div>
-            <p style="color: black;">Copyright &#169; 2023 Chi Dang. All Rights Reserved.</p>
         </nav>
+        <p>Copyright &#169; 2023 Chi Dang. All Rights Reserved.</p>
     </footer>
 
 </html>

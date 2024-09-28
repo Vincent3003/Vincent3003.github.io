@@ -64,7 +64,7 @@ const Data = () => {
             to enhance my skills in this dynamic field.
             </p>
 
-            <a href="#contact" className="button button--flex">Say Hello</a>
+            <a href="/contact" className="button button--flex">Say Hello</a>
             <a className="button button--flex" href={Resume} 
             onClick={(e) => {
                 e.preventDefault(); // Prevent default behavior if needed

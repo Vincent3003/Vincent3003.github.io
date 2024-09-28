@@ -1,0 +1,117 @@
+.experience-container {
+    justify-content: space-between;
+}
+
+.experience-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--mb-1-5);
+}
+
+.experience-button {
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-medium);
+    color: var(--title-color-dark);
+    margin: 0 var(--mb-1);
+    cursor: pointer;
+}
+
+.experience-button:hover {
+    color: var(--title-color-skills);
+}
+
+.experience-icon {
+    font-size: 1.8rem;
+    margin-right: var(--mb-0-25);
+}
+
+.experience-active {
+    color: var(--title-color-dark);
+}
+
+.experience-sections {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    justify-content: center;
+}
+
+.experience-content {
+    display: none;
+}
+
+.experience-content-active {
+    display: block;
+}
+
+.experience-data {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    column-gap: .5rem;
+}
+
+.experience-title {
+    font-size: var(--normal-font-size);
+    font-weight: var(--font-bold);
+}
+
+.experience-subtitle {
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-bottom: none;
+    font-weight: var(--font-semi-bold);
+}
+
+.experience-calender, .experience-location {
+    font-size: var(--small-font-size);
+}
+
+.experience-rounder {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background-color: var(--text-color);
+    border-radius: 50%;
+}
+
+.experience-line {
+    display: block;
+    width: 1px;
+    height: 100%;
+    background-color: var(--text-color);
+    transform: translate(6px, -7px);
+}
+
+/*=============== BREAKPOINTS ===============*/
+/* For large devices */
+@media screen and (max-width: 992px) {
+    .experience-container {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+  
+  /* For medium devices */
+@media screen and (max-width: 768px) {
+.experience-container {
+    margin-left: var(--mb-1-5);
+    margin-right: var(--mb-1-5);
+}
+}
+  
+@media screen and (max-width: 576px) {
+.experience-sections {
+    grid-template-columns: initial;
+}
+
+.experience-button {
+    margin: 0 var(--mb-0-75);
+}
+}
+  
+  /* For small devices */
+@media screen and (max-width: 350px) {
+.experience-data {
+    gap: 0.5rem;
+}
+}
+  

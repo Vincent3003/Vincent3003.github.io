@@ -1,5 +1,6 @@
 import React from "react";
 import Resume from "../../assets/ChiDangResume.pdf";
+import { NavLink } from "react-router-dom";
 
 
 const Data = () => {
@@ -64,7 +65,7 @@ const Data = () => {
             to enhance my skills in this dynamic field.
             </p>
 
-            <a href="/contact" className="button button--flex">Say Hello</a>
+            <NavLink to="/contact" className="button button--flex">Say Hello</NavLink>
             <a className="button button--flex" href={Resume} 
             onClick={(e) => {
                 e.preventDefault(); // Prevent default behavior if needed

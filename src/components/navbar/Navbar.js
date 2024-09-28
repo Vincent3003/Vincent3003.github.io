@@ -18,7 +18,7 @@ const Navbar = () => {
         <React.Fragment>
             <header className="header">
                 <nav className="nav container">
-                    <a href="/" className="nav-logo">Welcome to my page</a>
+                    <a href="/home" className="nav-logo">Welcome to my page</a>
 
                     <div className={Toggle ? "nav-menu show-menu" : "nav-menu"}>
                             <ul className="nav-list grid">

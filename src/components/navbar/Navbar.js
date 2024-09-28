@@ -18,18 +18,18 @@ const Navbar = () => {
         <React.Fragment>
             <header className="header">
                 <nav className="nav container">
-                    <a href="/home" className="nav-logo">Welcome to my page</a>
+                    <a href="/" className="nav-logo">Welcome to my page</a>
 
                     <div className={Toggle ? "nav-menu show-menu" : "nav-menu"}>
                             <ul className="nav-list grid">
-                                {/* HOME */}
+                                {/* HOME
                                 <li className="nav-item">
                                     <NavLink to="/home"
                                     onClick={closeMenu}
                                     className={({isActive}) => (isActive ? "nav-link active-link" : "nav-link")}>
                                         <i className="fa fa-house nav-icon"></i>
                                         Home</NavLink>
-                                </li>
+                                </li> */}
 
                                 {/* ABOUT ME */}
                                 <li className="nav-item">

@@ -13,7 +13,7 @@ const NavPage = () => {
             <section>
                 <Routes>
                     <Route path="/" element={<Home />} />
-                    <Route path="/home" element={<Home />} />
+                    {/* <Route path="/home" element={<Home />} /> */}
                     <Route path="/about" element={<AboutMe />} />
                     <Route path="/skills" element={<Skills />} />
                     <Route path="/experience" element={<Experience />} />

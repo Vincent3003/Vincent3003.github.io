@@ -37,10 +37,10 @@
 }
 
 .about-title {
-    font-size: var(--h3-font-size);
+    font-size: var(--normal-font-size);
     font-weight: var(--font-medium);
     color: var(--title-color-dark);
-    font-family: var(--h-font);
+    font-family: var(--lora-font);
 }
 
 .about-subtitle {

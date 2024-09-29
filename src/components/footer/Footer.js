@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { useLocation } from "react-router-dom";
+import { useLocation, NavLink } from "react-router-dom";
 
 const Footer = () => {
     const location = useLocation();
@@ -14,23 +14,23 @@ const Footer = () => {
 
                 <ul className="footer-list">
                     <li>
-                        <a href="/about" className="footer-link">About Me</a>
+                        <NavLink to="/about" className="footer-link">About Me</NavLink>
                     </li>
 
                     <li>
-                        <a href="/skills" className="footer-link">Skills</a>
+                        <NavLink to="/skills" className="footer-link">Skills</NavLink>
                     </li>
 
                     <li>
-                        <a href="/experience" className="footer-link">Experience</a>
+                        <NavLink to="/experience" className="footer-link">Experience</NavLink>
                     </li>
 
                     <li>
-                        <a href="/projects" className="footer-link">Projects</a>
+                        <NavLink to="/projects" className="footer-link">Projects</NavLink>
                     </li>
 
                     <li>
-                        <a href="/contact" className="footer-link">Contact</a>
+                        <NavLink to="/contact" className="footer-link">Contact</NavLink>
                     </li>
                 </ul>
 

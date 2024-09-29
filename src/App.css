@@ -18,6 +18,8 @@ code {
 @import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rochester&family=Rouge+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
 
 /*=============== VARIABLES CSS ===============*/
@@ -28,18 +30,20 @@ code {
   /*Color mode HSL(hue, saturation, lightness)*/
   --title-color: #95b8d1;
   --title-color-dark: #33539e;
-  --title-color-light: #7facd6;
   --title-color-skills: #a5678e;
+  --icon-color: #33539e;
   --text-color: black;
   --body-color: #eddcd2;
-  --container-color: #bdb0a8;
+  --container-color: #eedfd6;
   /* --container-color: #fff; */
 
   /*========== Font and typography ==========*/
-  --h-font: "Style Script", cursive;
-  --title-font: "Rouge Script", cursive;
-  --body-font: "Crimson Text", sans-serif;
+  --h-font: "Style Script", cursive;          /* will change to style scripts font*/
+  --title-font: "Rouge Script", cursive;      /* will change to rough scripts font*/
+  --body-font: "Crimson Text", sans-serif;    /* will change to crimson text font*/
   --sacramento-font: "Sacramento", cursive;
+  --playfair-font: "Playfair", serif;
+  --lora-font: "Lora", serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
   --big-font-size: 3.5rem;
@@ -91,7 +95,9 @@ code {
 [data-theme="dark"]{
   --body-color: #8e847e;
   --text-color: #f7f7f7;
-  --title-color-dark: #7ec4cf;
+  --title-color-dark: #649ca5;
+  --container-color: #a59a93;
+  --title-color: #8ac9d3;
 }
 
 /*=============== BASE ===============*/
@@ -123,7 +129,7 @@ body {
 h1 {
   color: var(--title-color);
   font-weight: var(--font-bold);
-  font-family: var(--sacramento-font);
+  font-family: var(--lora-font);
 }
 
 ul {
@@ -152,7 +158,7 @@ img {
 
 .section-title {
   font-size: var(--h1-font-size);
-  color: var(--title-color);
+  color: var(--title-color-dark);
 }
 
 .section-subtitle {
@@ -202,7 +208,7 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1000px) {
   .container {
     margin-left: var(--mb-1-5);
     margin-right: var(--mb-1-5);
@@ -219,7 +225,7 @@ img {
 }
 
 /* For medium devices */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
   body {
     margin: 0 0 var(--header-height) 0;
   }
@@ -233,7 +239,7 @@ img {
   }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 580px) {
 }
 
 /* For small devices */

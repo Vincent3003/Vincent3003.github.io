@@ -2,6 +2,7 @@
     background-color: var(--body-color);
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem 0;
+    font-family: var(--playfair-font);
 }
 
 .footer-container {
@@ -15,7 +16,6 @@
 .footer-title {
     text-align: center;
     margin-bottom: var(--mb-0-75);
-    font-family: var(--h-font);
 }
 
 .footer-link:hover {
@@ -25,9 +25,9 @@
 .footer-list {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     column-gap: 1.5rem;
     margin-bottom: var(--mb-0-75);
-    font-family: var(--h-font);
     font-size: var(--h3-font-size);
 }
 
@@ -60,9 +60,17 @@
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
-    .footer-social-link {
+    .footer-social-icon {
         padding: 0.25rem;
         border-radius: 0.25rem;
         font-size: 1rem;
     }
 }
+
+/* For medium devices */
+@media (max-width: 768px) {
+    .nav-list {
+        justify-content: space-between;
+    }
+}
+    

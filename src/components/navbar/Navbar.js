@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import "./Navbar.css";
 import {NavLink} from "react-router-dom";
 
@@ -12,7 +12,21 @@ const Navbar = () => {
     /*=============== Toggle Menu ===============*/
     const [Toggle, showMenu] = useState(false);
     // const [activeNav, setActiveNav] = useState("#home");
-    // const [theme, setTheme] = useState('light-theme');
+    
+    /*=============== When Scolling, Menu disappear ===============*/
+    useEffect(() => {
+        // Add scroll event listener to the window
+        const handleScroll = () => {
+            closeMenu(); // Call closeMenu function when page is scrolled
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        // Cleanup function to remove event listener
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
     
     return (
         <React.Fragment>
@@ -65,8 +79,8 @@ const Navbar = () => {
                                     <NavLink to="/projects"  
                                     onClick={closeMenu}
                                     className={({isActive}) => (isActive ? "nav-link active-link" : "nav-link")}>
-                                        <i className="fa fa-folder nav-icon"></i>
-                                        Projects</NavLink>
+                                        <i className="fa fa-folder nav-icon"></i> Projects
+                                    </NavLink>
                                 </li>
 
                                 {/* CONTACT */}
@@ -79,7 +93,7 @@ const Navbar = () => {
                                 </li>
                             </ul>
                             
-                            <i className="fa fa-xmark nav-close" onClick={() => showMenu(false)}></i>
+                            <i className="fa fa-xmark nav-close" onClick={() => showMenu(!Toggle)}></i>
 
                     </div>
                     

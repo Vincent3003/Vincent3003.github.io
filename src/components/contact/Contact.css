@@ -18,18 +18,16 @@
     padding: 1rem;
     border-radius: 0.75rem;
     text-align: center;
+    color: var(--title-color-dark);
 }
 
-.contact-card-icon {
-    font-size: 2rem;
-    color: var(--title-color);
+.contact-icon {
+    font-size: var(--h3-font-size);
     margin-bottom: var(--mb-0-25);
-    font-weight: var(--font-medium);
 }
 
 .contact-card-title {
     font-size: var(--h3-font-size);
-    color: var(--title-color-dark);
     font-weight: var(--font-medium);
 }
 

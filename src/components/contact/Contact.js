@@ -10,8 +10,7 @@ const Contact = () => {
 
             <div className="contact-container container grid">
                 <div className="contact-card">
-                    <i className="fa-solid fa-envelope contact-item-icon"></i>
-
+                    <i className="fa-solid fa-envelope contact-icon"></i>
                     <h3 className="contact-card-title">Email:</h3>
                     <a href="mailto:alisondang61@gmail.com.com" className="contact-card-data">alisondang61@gmail.com</a>
 
@@ -19,7 +18,7 @@ const Contact = () => {
                 </div>
 
                 <div className="contact-card">
-                    <i className="fa-solid fa-phone contact-item-icon"></i>
+                    <i class="fa fa-mobile-screen-button contact-icon"></i>
 
                     <h3 className="contact-card-title">Phone:</h3>
                     <a href="tel:2067248576" className="contact-card-data">(206) 724-8576</a>
@@ -28,7 +27,7 @@ const Contact = () => {
                 </div>
 
                 <div className="contact-card">
-                    <i className="fa-brands fa-linkedin contact-item-icon"></i>
+                    <i className="fa-brands fa-linkedin contact-icon"></i>
 
                     <h3 className="contact-card-title">LinkedIn:</h3>
                     <a href="https://www.linkedin.com/in/chidang0803" className="contact-card-data">Chi Dang</a>

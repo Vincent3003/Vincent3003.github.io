@@ -59,6 +59,7 @@ code {
   --font-normal: 400;
   --font-medium: 500;
   --font-semi-bold: 600;
+  --font-semi-semi-bold: 700;
   --font-bold: 850;
 
   /*========== Margenes Bottom ==========*/
@@ -95,9 +96,9 @@ code {
 [data-theme="dark"]{
   --body-color: #8e847e;
   --text-color: #f7f7f7;
-  --title-color-dark: #649ca5;
+  --title-color-dark: #7ec4cf;
   --container-color: #a59a93;
-  --title-color: #8ac9d3;
+  --title-color: #b1dbe2;
 }
 
 /*=============== BASE ===============*/

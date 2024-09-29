@@ -4,6 +4,7 @@
     column-gap: 3rem;
     padding-bottom: 3rem;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .contact-info {
@@ -77,5 +78,9 @@
   
   /* For small devices */
 @media screen and (max-width: 350px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        row-gap: 3rem;
+    }
 }
   

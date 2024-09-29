@@ -48,6 +48,10 @@
     display: none;
 }
 
+.nav-item i, .nav-item .nav-link {
+    color: var(--title-color);
+}
+
 /* Active link */
 .nav-logo:hover, .active-link:hover, .nav-link:hover {
     color: var(--title-color-skills);
@@ -123,9 +127,5 @@
 
     .nav-list {
         column-gap: 0;
-    }
-
-    .nav-item i, .nav-item .nav-link {
-        color: var(--title-color);
     }
 }

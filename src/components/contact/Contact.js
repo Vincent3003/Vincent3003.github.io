@@ -18,7 +18,7 @@ const Contact = () => {
                 </div>
 
                 <div className="contact-card">
-                    <i class="fa fa-mobile-screen-button contact-icon"></i>
+                    <i className="fa fa-mobile-screen-button contact-icon"></i>
 
                     <h3 className="contact-card-title">Phone:</h3>
                     <a href="tel:2067248576" className="contact-card-data">(206) 724-8576</a>

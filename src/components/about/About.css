@@ -38,7 +38,7 @@
 
 .about-title {
     font-size: var(--normal-font-size);
-    font-weight: var(--font-medium);
+    font-weight: var(--font-semi-bold);
     color: var(--title-color-dark);
     font-family: var(--lora-font);
 }

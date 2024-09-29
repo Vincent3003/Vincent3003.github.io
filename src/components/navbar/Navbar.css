@@ -111,6 +111,10 @@
     .nav-icon, .nav-close, .nav-toggle {
         display: block;
     }
+
+    .nav-item i, .nav-item .nav-link, .nav-close {
+        color: var(--title-color-dark);
+    }
 }
 
 /* For small devices */
@@ -121,9 +125,5 @@
 
     .nav-list {
         column-gap: 0;
-    }
-
-    .nav-item i, .nav-item .nav-link, .nav-close {
-        color: var(--title-color-dark);
     }
 }

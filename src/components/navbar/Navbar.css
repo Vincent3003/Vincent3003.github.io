@@ -49,7 +49,7 @@
 }
 
 .nav-item i, .nav-item .nav-link {
-    color: var(--title-color);
+    color: var(--title-color-dark);
 }
 
 /* Active link */

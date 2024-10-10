@@ -23,7 +23,7 @@ const Projects = () => {
                         <div>
                             <img className="projects-img" src={Project1} alt="SKincare Project"></img>
                             <h3 className="projects-title">
-                            Project #1: <br /> Skincare
+                            Sales Data Analyst and <br /> Forecasting for The Glow Company
                             </h3>
                         </div>
 
@@ -38,17 +38,24 @@ const Projects = () => {
                             <div className="projects-modal-content">
                             <i onClick={() => toggleTab(0)} className="fa-solid fa-xmark projects-modal-close"></i>
 
-                            <h3 className="projects-modal-title">Skincare</h3>
-                            <p className="projects-modal-description">
-                                Service with more than 3 years of experience.Providing quality
-                                work to clients and companies.
+                            <h3 className="projects-modal-title">Sales Data Analyst and Forecasting for The Glow Company</h3>
+                            <p className="projects-modal-description"> <b>Project Overview:</b>
+                            Conducted a comprehensive analysis of Sephora's publicly available e-commerce data to gain market insights 
+                            for The Glow, a skincare company. This project aimed to uncover product performance trends, 
+                            customer behavior patterns, and future demand forecasts in the skincare industry to support The Glow's 
+                            strategic decision-making and market positioning.
                             </p>
 
                             <ul className="projects-modal-services grid">
                                 <li className="projects-modal-service">
                                 <i className="fa fa-check-circle projects-modal-icon"></i>
+                                <h6>Problems:</h6>
                                 <p className="projects-modal-info">
-                                    I develop the user interface.
+                                The Glow, a skincare company, wanted to gain deeper insights into its business performance using Sephora's publicly available dataset. Specifically:
+
+The company had access to Sephora's e-commerce sales data but needed to extract meaningful insights about product performance and customer behavior in the skincare market.
+There was a need to understand market trends and future demand patterns to support strategic decision-making.
+The Glow wanted to optimize its product development, inventory, and marketing strategies based on data-driven insights from a major player in the skincare industry.
                                 </p>
                                 </li>
 

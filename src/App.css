@@ -93,7 +93,9 @@ code {
 }
 
 [data-theme="dark"]{
-  --body-color: #8e847e;
+  /* --body-color: #988d87; */
+  --body-color: #88766f;
+  /* --body-color: #746464; */
   --text-color: #f7f7f7;
   --title-color-dark: #7ec4cf;
   --container-color: #a59a93;
@@ -164,7 +166,7 @@ img {
 .section-subtitle {
   display: block;
   font-size: var(--small-font-size);
-  margin-bottom: 4rem;
+  margin-bottom: var(--mb-2);
 }
 
 .section-title, .section-subtitle {
@@ -173,9 +175,10 @@ img {
 
 /*=============== LAYOUT ===============*/
 .container {
-  max-width: 968px;
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
+  height: fit-content;
 }
 
 .grid {

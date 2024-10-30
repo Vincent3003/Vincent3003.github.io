@@ -6,7 +6,8 @@
 }
 
 .footer-container {
-    padding: 0.75rem 0;
+    padding: 0.5rem 0;
+    height: 150px;
 }
 
 .footer-title, .footer-link {
@@ -59,7 +60,7 @@
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 990px) {
     .footer-social-icon {
         padding: 0.25rem;
         border-radius: 0.25rem;
@@ -68,7 +69,7 @@
 }
 
 /* For medium devices */
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .nav-list {
         justify-content: space-between;
     }

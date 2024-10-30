@@ -20,10 +20,10 @@ const Projects = () => {
 
                 <div className="projects-container container grid">
                     <div className="projects-content">
-                        <div>
+                        <div className="projects-icon ">
                             <img className="projects-img" src={Project1} alt="SKincare Project"></img>
                             <h3 className="projects-title">
-                            Sales Data Analyst and <br /> Forecasting for The Glow Company
+                            Sales Data Analyst<br />for The Glow Co.
                             </h3>
                         </div>
 
@@ -36,62 +36,110 @@ const Projects = () => {
                                 ? "projects-modal active-modal"
                                 : "projects-modal"}>
                             <div className="projects-modal-content">
-                            <i onClick={() => toggleTab(0)} className="fa-solid fa-xmark projects-modal-close"></i>
-
-                            <h3 className="projects-modal-title">Sales Data Analyst and Forecasting for The Glow Company</h3>
-                            <p className="projects-modal-description"> <b>Project Overview:</b>
-                            Conducted a comprehensive analysis of Sephora's publicly available e-commerce data to gain market insights 
-                            for The Glow, a skincare company. This project aimed to uncover product performance trends, 
-                            customer behavior patterns, and future demand forecasts in the skincare industry to support The Glow's 
-                            strategic decision-making and market positioning.
-                            </p>
-
-                            <ul className="projects-modal-services grid">
-                                <li className="projects-modal-service">
-                                <i className="fa fa-check-circle projects-modal-icon"></i>
-                                <h6>Problems:</h6>
-                                <p className="projects-modal-info">
-                                The Glow, a skincare company, wanted to gain deeper insights into its business performance using Sephora's publicly available dataset. Specifically:
-
-The company had access to Sephora's e-commerce sales data but needed to extract meaningful insights about product performance and customer behavior in the skincare market.
-There was a need to understand market trends and future demand patterns to support strategic decision-making.
-The Glow wanted to optimize its product development, inventory, and marketing strategies based on data-driven insights from a major player in the skincare industry.
+                                <i onClick={() => toggleTab(0)} className="fa-solid fa-xmark projects-modal-close"></i>
+                                <h3 className="projects-modal-title">Sales Data Analyst for The Glow Co.</h3>
+                                <p className="projects-modal-description"> <b>Project Overview: </b>
+                                The Glow Co. dashboard project focused on analyzing sales and customer data from 1970 to 1984. 
+                                The goal was to uncover key insights into product performance, customer preferences, 
+                                and sales patterns, to help drive informed decision-making for marketing and inventory management.
                                 </p>
-                                </li>
 
-                                <li className="projects-modal-service">
-                                <i className="fa fa-check-circle projects-modal-icon"></i>
-                                <p className="projects-modal-info">Web page development.</p>
-                                </li>
+                                <ul className="projects-modal-services grid">
+                                    <li className="projects-modal-service">
+                                        <i className="fa fa-check-circle projects-modal-icon"></i>
+                                        <p className="projects-modal-info"> <b>Problems: </b>
+                                        </p>
+                                    </li>
 
-                                <li className="projects-modal-service">
-                                <i className="fa fa-check-circle projects-modal-icon"></i>
-                                <p className="projects-modal-info">
-                                    I create ux element interactions.
-                                </p>
-                                </li>
+                                    <ul className="projects-modal-info list">
+                                        <li className="projects-modal-info-list">
+                                        Limited visibility into top-performing products and their revenue contribution.
+                                        </li>
+                                        <li className="projects-modal-info-list">
+                                        Difficulty understanding the impact of promotional strategies 
+                                        (e.g., Sephora-exclusive, online-only products, etc.).
+                                        </li>
+                                        <li className="projects-modal-info-list">
+                                        Varied product performance across different categories
+                                        </li>
+                                    </ul>
 
-                                <li className="projects-modal-service">
-                                <i className="fa fa-check-circle projects-modal-icon"></i>
-                                <p className="projects-modal-info">
-                                    I position your company brand.
-                                </p>
-                                </li>
+                                    <li className="projects-modal-service">
+                                    <i className="fa fa-check-circle projects-modal-icon"></i>
+                                    <p className="projects-modal-info"><b>Task: </b></p>
+                                    </li>
+                                    
+                                    <li className="projects-modal-info-list">
+                                    To analyze customer reviews, product sales, and feedback data to identify the top products, 
+                                    assess the effectiveness of promotions, and understand customer engagement across various 
+                                    product categories.
+                                    </li>
 
-                                <li className="projects-modal-service">
-                                <i className="fa fa-check-circle projects-modal-icon"></i>
-                                <p className="projects-modal-info">
-                                    Design and mockups of products for companies.
-                                </p>
-                                </li>
-                            </ul>
+                                    <li className="projects-modal-service">
+                                        <i className="fa fa-check-circle projects-modal-icon"></i>
+                                        <p className="projects-modal-info"> <b>Method & Tools: </b> </p>
+                                    </li>
+                                    <ul className="projects-modal-info list">
+                                        <li className="projects-modal-info-list">
+                                        <b>R: </b> For data cleaning and data enrichment process
+                                        </li>
+                                        <li className="projects-modal-info-list">
+                                        <b>SQL:</b> For querying product, review, and sales data.
+                                        </li>
+                                        <li className="projects-modal-info-list">
+                                        <b>Power BI: </b>For building interactive dashboards to visualize product performance, 
+                                        customer segmentation, and sales trends.
+                                        </li>
+                                    </ul>
+
+                                    <li className="projects-modal-service">
+                                        <i className="fa fa-check-circle projects-modal-icon"></i>
+                                        <p className="projects-modal-info"><b>Key Results:</b></p>
+                                    </li>
+
+                                    <ul className="projects-modal-info list">
+                                        <li className="projects-modal-info-list">
+                                            <b>Top-Performing Products:</b> Identified bestsellers like the "Lip Sleeping Mask" and 
+                                            "Crème de la Mer" moisturizer, which collectively contributed over 500K in sales.
+                                        </li>
+                                        <li className="projects-modal-info-list">
+                                            <b>Promotional Impact:</b> Products exclusively sold through Sephora more than 50% and online contributed 47.66% of 
+                                            the sales volume, highlighting the importance of these channels​.
+                                        </li>
+                                        <li className="projects-modal-info-list">
+                                            <b>Customer Preferences:</b> Moisturizer, Treatment, and Cleansers  were the leading categories in sales, 
+                                            with skincare products showing higher customer engagement 
+                                        </li>
+                                    </ul>
+
+                                    <li className="projects-modal-service">
+                                        <i className="fa fa-check-circle projects-modal-icon"></i>
+                                        <p className="projects-modal-info"><b>Conclusion & Recommendation:</b></p>
+                                    </li>
+
+                                    <ul className="projects-modal-info list">
+                                        <li className="projects-modal-info-list"> <b>Conclusion: </b>
+                                            Focusing on high-performing categories like moisturizers 
+                                            and leveraging online and Sephora-exclusive channels can significantly increase revenue. 
+                                        </li>
+                                        <li className="projects-modal-info-list"> <b>RecommendationS: </b>
+                                        Implement balanced multi-channel approach for high-performing products and 
+                                        Develop targeted strategy for eye care and sunscreen categories.</li>
+                                    </ul>
+
+                                    <li className="projects-modal-service link">
+                                        <i className="fa fa-check-circle projects-modal-icon"></i>
+                                        <p className="projects-modal-info"> <b>For more information: </b> </p>
+                                        <a href="https://github.com/Vincent3003" className="projects-modal-link"> Click here</a>
+                                    </li>
+                                </ul>
+                            </div> 
                         </div>
                     </div>
-                </div>
 
                     <div className="projects-content">
                         <div>
-                        <img className="projects-img" src={Project2} alt="Unemployment Project"></img>
+                            <img className="projects-img" src={Project2} alt="Unemployment Project"></img>
                             <h3 className="projects-title">
                             Ui/Ux <br /> Designer
                             </h3>
@@ -105,48 +153,48 @@ The Glow wanted to optimize its product development, inventory, and marketing st
                         <div className={toggleState === 2
                                 ? "projects-modal active-modal" : "projects-modal"}>
                             <div className="projects-modal-content">
-                            <i onClick={() => toggleTab(0)} className="fa-solid fa-xmark projects-modal-close"></i>
+                                <i onClick={() => toggleTab(0)} className="fa-solid fa-xmark projects-modal-close"></i>
 
-                            <h3 className="projects-modal-title">Ui/Ux Designer</h3>
-                            <p className="projects-modal-description">
-                                Service with more than 3 years of experience.Providing quality
-                                work to clients and companies.
-                            </p>
-
-                            <ul className="projects-modal-services grid">
-                                <li className="projects-modal-service">
-                                <i className="fa fa-check-circle projects-modal-icon"></i>
-                                <p className="projects-modal-info">
-                                    I develop the user interface.
+                                <h3 className="projects-modal-title">Ui/Ux Designer</h3>
+                                <p className="projects-modal-description">
+                                    Service with more than 3 years of experience.Providing quality
+                                    work to clients and companies.
                                 </p>
-                                </li>
 
-                                <li className="projects-modal-service">
-                                <i className="fa fa-check-circle projects-modal-icon"></i>
-                                <p className="projects-modal-info">Web page development.</p>
-                                </li>
+                                <ul className="projects-modal-services grid">
+                                    <li className="projects-modal-service">
+                                    <i className="fa fa-check-circle projects-modal-icon"></i>
+                                    <p className="projects-modal-info">
+                                        I develop the user interface.
+                                    </p>
+                                    </li>
 
-                                <li className="projects-modal-service">
-                                <i className="fa fa-check-circle projects-modal-icon"></i>
-                                <p className="projects-modal-info">
-                                    I create ux element interactions.
-                                </p>
-                                </li>
+                                    <li className="projects-modal-service">
+                                    <i className="fa fa-check-circle projects-modal-icon"></i>
+                                    <p className="projects-modal-info">Web page development.</p>
+                                    </li>
 
-                                <li className="projects-modal-service">
-                                <i className="fa fa-check-circle projects-modal-icon"></i>
-                                <p className="projects-modal-info">
-                                    I position your company brand.
-                                </p>
-                                </li>
+                                    <li className="projects-modal-service">
+                                    <i className="fa fa-check-circle projects-modal-icon"></i>
+                                    <p className="projects-modal-info">
+                                        I create ux element interactions.
+                                    </p>
+                                    </li>
 
-                                <li className="projects-modal-service">
-                                <i className="fa fa-check-circle projects-modal-icon"></i>
-                                <p className="projects-modal-info">
-                                    Design and mockups of products for companies.
-                                </p>
-                                </li>
-                            </ul>
+                                    <li className="projects-modal-service">
+                                    <i className="fa fa-check-circle projects-modal-icon"></i>
+                                    <p className="projects-modal-info">
+                                        I position your company brand.
+                                    </p>
+                                    </li>
+
+                                    <li className="projects-modal-service">
+                                    <i className="fa fa-check-circle projects-modal-icon"></i>
+                                    <p className="projects-modal-info">
+                                        Design and mockups of products for companies.
+                                    </p>
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>

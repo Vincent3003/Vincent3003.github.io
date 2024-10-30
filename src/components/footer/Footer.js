@@ -10,7 +10,9 @@ const Footer = () => {
     return (
         <footer className={`footer ${isHomePage ? "home-page-footer" : isContactPage ? "contact-page-footer" : ""}`}>            
             <div className="footer-container container">
-                <h2 className="footer-title">Chi Dang</h2>
+                <h2 className="footer-title">
+                    <a href="/" className="footer-link">Chi Dang</a>
+                </h2>
 
                 <ul className="footer-list">
                     <li>

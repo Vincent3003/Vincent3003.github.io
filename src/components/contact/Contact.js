@@ -12,7 +12,7 @@ const Contact = () => {
                 <div className="contact-card">
                     <i className="fa-solid fa-envelope contact-icon"></i>
                     <h3 className="contact-card-title">Email:</h3>
-                    <a href="mailto:alisondang61@gmail.com.com" className="contact-card-data">alisondang61@gmail.com</a>
+                    <a href="mailto:alisondang61@gmail.com" className="contact-card-data">alisondang61@gmail.com</a>
 
                     {/* <a href="mailto:alisondang61@gmail.com.com" className="contact-button">Write Me {" "} </a> */}
                 </div>

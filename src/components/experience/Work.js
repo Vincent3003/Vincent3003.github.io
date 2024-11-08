@@ -38,7 +38,7 @@ const Experience = () => {
                                     <i className="fa-solid fa-calendar-days"></i> 06/2022 - 12/2023
                                 </div>
                                 <div className="experience-location">
-                                    <i className="fa-solid fa-location-dot"></i> Des Moines,IA
+                                    <i className="fa-solid fa-location-dot"></i> Des Moines, IA
                                 </div>
                             </div>
 
@@ -63,7 +63,7 @@ const Experience = () => {
                                     <i className="fa-solid fa-calendar-days"></i> 03/2022 - 06/2022
                                 </div>
                                 <div className="experience-location">
-                                    <i className="fa-solid fa-location-dot"></i> Des Moines,IA
+                                    <i className="fa-solid fa-location-dot"></i> Des Moines, IA
                                 </div>
                             </div>
                         </div>
@@ -76,7 +76,7 @@ const Experience = () => {
                                     <i className="fa-solid fa-calendar-days"></i> 09/2021 - 12/2022
                                 </div>
                                 <div className="experience-location">
-                                    <i className="fa-solid fa-location-dot"></i> Des Moines,IA
+                                    <i className="fa-solid fa-location-dot"></i> Des Moines, IA
                                 </div>
                             </div>
 
@@ -99,7 +99,7 @@ const Experience = () => {
                                     <i className="fa-solid fa-calendar-days"></i> 05/2024 - Present
                                 </div>
                                 <div className="experience-location">
-                                    <i className="fa-solid fa-location-dot"></i> Franklin Park,IL
+                                    <i className="fa-solid fa-location-dot"></i> Franklin Park, IL
                                 </div>
                             </div>
 
@@ -125,7 +125,7 @@ const Experience = () => {
                                 </div>
 
                                 <div className="experience-location">
-                                    <i className="fa-solid fa-location-dot"></i> Des Moines,IA
+                                    <i className="fa-solid fa-location-dot"></i> Des Moines, IA
                                 </div>
                             </div>
                         </div>
@@ -139,7 +139,7 @@ const Experience = () => {
                                 </div>
 
                                 <div className="experience-location">
-                                    <i className="fa-solid fa-location-dot"></i> Des Moines,IA
+                                    <i className="fa-solid fa-location-dot"></i> Des Moines, IA
                                 </div>
                             </div>
 
@@ -164,7 +164,7 @@ const Experience = () => {
                                 </div>
 
                                 <div className="experience-location">
-                                    <i className="fa-solid fa-location-dot"></i> Des Moines,IA
+                                    <i className="fa-solid fa-location-dot"></i> Des Moines, IA
                                 </div>
                             </div>
                         </div>

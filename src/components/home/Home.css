@@ -44,11 +44,17 @@
     margin-bottom: var(--mb-1);
 }
 
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* Adjust spacing between buttons */
+  margin: 0 auto;
+  max-width: 100%; /* Optional: you can set a specific max-width */
+  padding: 10px;
+}
+
 .button {
-    display: inline-block;
-    margin: 1rem;
-    font-size: var(--h3-font-size);
-    color: var(--body-color);
+  text-align: center;
 }
 
 .button:hover {
@@ -145,81 +151,85 @@
 /*=============== BREAKPOINTS ===============*/
   /* For large devices */
 @media screen and (max-width: 992px) {
-    .home-content {
-      grid-template-columns: 100px repeat(2, 1fr);
-      column-gap: 1.25rem;
-    }
-  
-    .home-hand {
-      width: 26px;
-      height: 26px;
-    }
-  
-    .home-subtitle {
-      justify-self: unset;
-      margin-bottom: var(--mb-1);
-    }
-  
-    .home-subtitle::before {
-      width: 120px;
-      top: 0.8rem;
-    }
-
-    .home-subtitle::after {
-      width: 120px;
-      top: 0.8rem;
-    }
-  
-    .home-description {
-      max-width: initial;
-      margin-bottom: var(--mb-2-5);
-    }
-  
-    .home-img {
-      width: 250px;
-      height: 250px;
-      box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
-    }
-  
-    .home-scroll {
-      margin-left: 7.5rem;
-    }
+  .home-content {
+    grid-template-columns: 100px repeat(2, 1fr);
+    column-gap: 1.25rem;
   }
+
+  .home-hand {
+    width: 26px;
+    height: 26px;
+  }
+
+  .home-subtitle {
+    justify-self: unset;
+    margin-bottom: var(--mb-1);
+  }
+
+  .home-subtitle::before {
+    width: 120px;
+    top: 0.8rem;
+  }
+
+  .home-subtitle::after {
+    width: 120px;
+    top: 0.8rem;
+  }
+
+  .home-description {
+    max-width: initial;
+    margin-bottom: var(--mb-2-5);
+  }
+
+  .home-img {
+    width: 250px;
+    height: 250px;
+    box-shadow: inset 0 0 0 8px rgb(255 255 255 / 30%);
+  }
+
+  .home-scroll {
+    margin-left: 7.5rem;
+  }
+}
   
 /* For medium devices */
 @media screen and (max-width: 770px) {
-    .home-content {
-      grid-template-columns: 0.5fr 3fr;
-      padding-top: 3.5rem;
-    }
-  
-    .home-img {
-      order: initial;
-      justify-self: initial;
-    }
-  
-    .home-data {
-      grid-column: 1/3;
-    }
-  
-    .home-img {
-      box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
-      width: 200px;
-      height: 200px;
-    }
-  
-    .home-scroll {
-      display: none;
-    }
-
-    .home-subtitle::after {
-      width: 100px;;
-    }
-
-    .home-subtitle::before {
-      width: 100px;
-    }
+  .home-content {
+    grid-template-columns: 0.5fr 3fr;
+    padding-top: 3.5rem;
   }
+
+  .home-img {
+    order: initial;
+    justify-self: initial;
+  }
+
+  .home-data {
+    grid-column: 1/3;
+  }
+
+  .home-img {
+    box-shadow: inset 0 0 0 6px rgb(255 255 255 / 30%);
+    width: 200px;
+    height: 200px;
+  }
+
+  .home-scroll {
+    display: none;
+  }
+
+  .home-subtitle::after {
+    width: 100px;;
+  }
+
+  .home-subtitle::before {
+    width: 100px;
+  }
+
+  .button-container {
+    justify-content: center;
+  }
+}
   
 /* For small devices */
 @media screen and (max-width: 350px) {

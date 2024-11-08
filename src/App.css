@@ -30,7 +30,7 @@ code {
   /*Color mode HSL(hue, saturation, lightness)*/
   --title-color: #95b8d1;
   --title-color-dark: #33539e;
-  --title-color-skills: #a5678e;
+  --title-color-skills: #2c8769;
   --text-color: black;
   --body-color: #eddcd2;
   --container-color: #eedfd6;
@@ -97,9 +97,10 @@ code {
   --body-color: #88766f;
   /* --body-color: #746464; */
   --text-color: #f7f7f7;
-  --title-color-dark: #7ec4cf;
+  --title-color-dark: #7ccbea;
   --container-color: #a59a93;
   --title-color: #b1dbe2;
+  --title-color-skills: #53fec6;
 }
 
 /*=============== BASE ===============*/

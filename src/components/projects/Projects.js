@@ -138,7 +138,7 @@ const Projects = () => {
                         <div className="projects-icon">
                             <img className="projects-img" src={Project2} alt="Unemployment Project"></img>
                             <h3 className="projects-title">
-                            Predicting Layoff Patterns<br /> Based on Company <br/> Attributes
+                            Predicting Layoff Patterns<br /> Based on Company <br/> Atributes
                             </h3>
                         </div>
 
@@ -151,7 +151,7 @@ const Projects = () => {
                             <div className="projects-modal-content">
                                 <i onClick={() => toggleTab(0)} className="fa-solid fa-xmark projects-modal-close"></i>
 
-                                <h3 className="projects-modal-title">Predicting Layoff Patterns Based on Company Attributes</h3>
+                                <h3 className="projects-modal-title">Predicting Layoff Patterns Based on Company Atributes</h3>
                                 <p className="projects-modal-description"><b>Project Overview: </b>
                                 This project aims to explore and analyze layoff trends in companies across various industries, 
                                 locations, and stages of growth using machine learning techniques. By leveraging models like 

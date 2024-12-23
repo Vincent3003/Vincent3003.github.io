@@ -17,14 +17,14 @@ const About = () => {
                         <Info />
 
                         <p className="about-description">
-                            I'm Chi, and I am from Vietnam. I recently graduated with a Bachelor of Science in Computer Science 
-                            and Data Analytics from Drake University. I have a strong passion for numbers, problem-solving, 
-                            and analytical thinking, which I have developed through internships at EMC Insurance Companies 
-                            and roles at Drake University’s support centers. I am skilled in Python, R, SQL, and JavaScript, 
-                            and proficient in tools like PowerBI, Tableau, and GitHub. As a dedicated team player and 
-                            former Secretary of the Drake Association of Technology Advancement (DATA) Club, 
-                            I bring strong leadership and communication skills to every project. Feel free to explore 
-                            my portfolio and reach out for collaboration opportunities!</p>
+                        My name is Chi, and you can call me Alison. As an international student from Vietnam, 
+                        I graduated with a bachelor's degree in computer science and data analytics from Drake University. 
+                        With internships at EMC Insurance Companies and roles at Drake University's support centers, 
+                        I have developed a passion for numbers, problem-solving, and analytical thinking. 
+                        I am skilled in Python, R, SQL, and JavaScript and proficient in tools like PowerBI, Tableau, and GitHub. 
+                        In addition to being a team player and former secretary of the Drake Association of Technology Advancement 
+                        (DATA) Club, I possess strong leadership and communication skills. Feel free to browse my portfolio and 
+                        contact me to collaborate!</p>
                     </div>
                 </div>
             </section>

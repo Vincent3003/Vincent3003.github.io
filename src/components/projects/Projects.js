@@ -276,7 +276,7 @@ const Projects = () => {
                                 <i onClick={() => toggleTab(0)} className="fa-solid fa-xmark projects-modal-close"></i>
 
                                 <h3 className="projects-modal-title">Personalized Skincare Recommendations Based on Demographic Analysis</h3>
-                                <p className="projects-modal-description"><b>Project Overview:</b> 
+                                <p className="projects-modal-description"><b>Project Overview: </b> 
                                 This project aims to develop personalized skincare recommendations for high-income individuals by 
                                 analyzing demographic and employment factors. Using the Adult Income Census dataset from Kaggle, 
                                 my team focused on identifying characteristics associated with high-income status to tailor product 

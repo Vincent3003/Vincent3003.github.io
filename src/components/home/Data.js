@@ -1,12 +1,12 @@
 import React from "react";
-import Resume from "../../assets/ChiDangResume.pdf";
+import Resume from "../../assets/AlisonDangResume.pdf";
 import { NavLink } from "react-router-dom";
 
 
 const Data = () => {
     return (
         <div className="home-data">
-          <h1 className="home-title">Chi Dang
+          <h1 className="home-title">Alison (Chi) Dang
 
           <svg
               width="36"

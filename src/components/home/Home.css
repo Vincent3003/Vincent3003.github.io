@@ -55,6 +55,7 @@
 
 .button {
   text-align: center;
+  font-size: var(--normal-font-size);
 }
 
 .button:hover {

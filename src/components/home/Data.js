@@ -6,7 +6,7 @@ import { NavLink } from "react-router-dom";
 const Data = () => {
     return (
         <div className="home-data">
-          <h1 className="home-title">Alison (Chi) Dang
+          <h1 className="home-title">Chi (Alison) Dang
 
           <svg
               width="36"

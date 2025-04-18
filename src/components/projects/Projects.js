@@ -414,7 +414,7 @@ const Projects = () => {
                                         <a href="https://github.com/Vincent3003/IS145-Final-project" className="projects-modal-link"> Click here</a>
                                     </li>
                                     <ul className="projects-modal-info list">
-                                        <li className="projects-modal-info-list"><b>UX & UI Design:</b> Chi (Alison) Dang</li>
+                                        <li className="projects-modal-info-list"><b>Front-End Developer:</b> Chi (Alison) Dang</li>
                                     </ul>
 
                                     <li className="projects-modal-service link">
@@ -423,8 +423,8 @@ const Projects = () => {
                                         <a href="https://github.com/Vincent3003/crochet-with-love" className="projects-modal-link"> Click here</a>
                                     </li>
                                     <ul className="projects-modal-info list">
-                                        <li className="projects-modal-info-list"><b>UI Design:</b> Mia Do</li>
-                                        <li className="projects-modal-info-list"><b>UX Design:</b> Chi (Alison) Dang</li>
+                                        <li className="projects-modal-info-list"><b>UI Designer:</b> Mia Do</li>
+                                        <li className="projects-modal-info-list"><b>Front-End Developer:</b> Chi (Alison) Dang</li>
                                     </ul>
 
                                     <li className="projects-modal-service link">
@@ -433,8 +433,8 @@ const Projects = () => {
                                         <a href="https://github.com/Vincent3003/panda-news" className="projects-modal-link"> Click here</a>
                                     </li>
                                     <ul className="projects-modal-info list">
-                                        <li className="projects-modal-info-list"><b>UI Design:</b> Mia Do</li>
-                                        <li className="projects-modal-info-list"><b>UX Design:</b> Chi (Alison) Dang</li>
+                                        <li className="projects-modal-info-list"><b>UI Designer:</b> Mia Do</li>
+                                        <li className="projects-modal-info-list"><b>Front-End Developer:</b> Chi (Alison) Dang</li>
                                     </ul>
                                 </ul>
                             </div>

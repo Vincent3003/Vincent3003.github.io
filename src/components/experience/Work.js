@@ -93,7 +93,7 @@ const Experience = () => {
                     <div className={toggleState === 2 ? "experience-content experience-content-active" : "experience-content"}>
                         <div className="experience-data">
                             <div>
-                                <h3 className="experience-title">Inventory and Supply Chain Analyst</h3>
+                                <h3 className="experience-title">Sales Data Analyst</h3>
                                 <span className="experience-subtitle">Il Mulino Di Valenzano Bakery</span>
                                 <div className="experience-calender">
                                     <i className="fa-solid fa-calendar-days"></i> 05/2024 - Present
@@ -132,7 +132,7 @@ const Experience = () => {
 
                         <div className="experience-data">
                             <div>
-                                <h3 className="experience-title">Support Center Imaging Student Tech</h3>
+                                <h3 className="experience-title">Application Systems Analyst Student Technician</h3>
                                 <span className="experience-subtitle">Drake University</span>
                                 <div className="experience-calender">
                                     <i className="fa-solid fa-calendar-days"></i> 06/2022 - 09/2023
@@ -157,7 +157,7 @@ const Experience = () => {
                             </div>
                             
                             <div>
-                                <h3 className="experience-title">Support Center Student Tech</h3>
+                                <h3 className="experience-title">Front-desk Student Technician</h3>
                                 <span className="experience-subtitle">Drake University</span>
                                 <div className="experience-calender">
                                     <i className="fa-solid fa-calendar-days"></i> 03/2021 - 09/2023

@@ -28,13 +28,13 @@ code {
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --title-color: #95b8d1;
-  --title-color-dark: #33539e;
-  --title-color-skills: #2c8769;
-  --text-color: black;
-  --body-color: #eddcd2;
-  --container-color: #eedfd6;
-  /* --container-color: #fff; */
+  --background-color: #D6EBF3;
+  --section-heading-color: #629BB5;
+  --text-color: #1B1B1B;
+  --sub-text-color: #2F4F4F;
+  --button-color: #629BB5;
+  --nav-link-color: #B9D8E1;
+  --nav-link-color-active: #9E7A6A;
 
   /*========== Font and typography ==========*/
   --h-font: "Style Script", cursive;          /* will change to style scripts font*/
@@ -93,9 +93,7 @@ code {
 }
 
 [data-theme="dark"]{
-  /* --body-color: #988d87; */
   --body-color: #88766f;
-  /* --body-color: #746464; */
   --text-color: #f7f7f7;
   --title-color-dark: #7ccbea;
   --container-color: #a59a93;

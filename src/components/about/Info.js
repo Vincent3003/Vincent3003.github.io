@@ -16,7 +16,7 @@ const Info = () => {
                 <i className="fa fa-school about-icon"></i> 
                 <h3 className="about-title">Education</h3>
                 <ul className="bullet-list">
-                    <li className="about-subtitle">Bachelor of Science in Computer Science and Data Analytics, Drake University</li> <br/>
+                    <li className="about-subtitle">Bachelor of Science in Computer Science and Data Analytics at Drake University</li> <br/>
                     <li className="about-subtitle">Presidential Scholarship <br />and International Student Grant Scholarship</li>
                 </ul>
             </div>

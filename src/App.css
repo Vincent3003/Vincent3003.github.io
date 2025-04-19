@@ -28,13 +28,13 @@ code {
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --background-color: #D6EBF3;
+  --background-color: #B9D8E1;
   --section-heading-color: #629BB5;
   --text-color: #1B1B1B;
-  --sub-text-color: #2F4F4F;
-  --button-color: #629BB5;
-  --nav-link-color: #B9D8E1;
-  --nav-link-color-active: #9E7A6A;
+  --sub-text-color: #121524;
+  --container-color: #BDC4D4;
+  --nav-link-color: #1C2E4A;
+  --hover-color: #69A06C; 
 
   /*========== Font and typography ==========*/
   --h-font: "Style Script", cursive;          /* will change to style scripts font*/
@@ -46,7 +46,7 @@ code {
 
   /*.5rem = 8px | 1rem = 16px ...*/
   --big-font-size: 3.5rem;
-  --h1-font-size: 2.25rem;
+  --h1-font-size: 2.35rem;
   --h2-font-size: 1.5rem;
   --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
@@ -93,12 +93,13 @@ code {
 }
 
 [data-theme="dark"]{
-  --body-color: #88766f;
-  --text-color: #f7f7f7;
-  --title-color-dark: #7ccbea;
-  --container-color: #a59a93;
-  --title-color: #b1dbe2;
-  --title-color-skills: #53fec6;
+  --background-color: #0A122A;
+  --section-heading-color: #629BB5;
+  --text-color: #E6E8E6;
+  --sub-text-color: #A8A9AD;
+  --container-color: #1C2E4A;
+  --nav-link-color: #C1E8FF;
+  --hover-color: #679272;
 }
 
 /*=============== BASE ===============*/
@@ -118,7 +119,7 @@ body, button, input, textarea {
 }
 
 body {
-  background-color: var(--body-color);
+  background-color: var(--background-color);
   color: var(--text-color);
 }
 
@@ -128,7 +129,7 @@ body {
 }
 
 h1 {
-  color: var(--title-color);
+  color: var(--section-heading-color);
   font-weight: var(--font-bold);
   font-family: var(--lora-font);
 }
@@ -154,18 +155,20 @@ img {
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section {
-  padding: 6rem 0 2rem;
+  padding: 3rem 0 2.5rem;
 }
 
 .section-title {
   font-size: var(--h1-font-size);
-  color: var(--title-color-dark);
+  color: var(--section-heading-color);
+  margin-bottom: var(--mb-1);
 }
 
 .section-subtitle {
   display: block;
-  font-size: var(--small-font-size);
-  margin-bottom: var(--mb-2);
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-3);
+  color: var(--sub-text-color);
 }
 
 .section-title, .section-subtitle {
@@ -188,7 +191,7 @@ img {
 /*=============== BUTTONS ===============*/
 .button {
   display: inline-block;
-  background-color: var(--title-color);
+  background-color: var(--section-heading-color);
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
@@ -196,7 +199,7 @@ img {
 }
 
 .button:hover {
-  background-color: var(--title-color-dark);
+  background-color: var(--hover-color);      /* Pick Green */
 }
 
 .button-icon {

@@ -9,15 +9,15 @@
 }
 
 .experience-button {
-    font-size: var(--h3-font-size);
+    font-size: var(--h2-font-size);
     font-weight: var(--font-medium);
-    color: var(--title-color-dark);
+    color: var(--section-heading-color);
     margin: 0 var(--mb-1);
     cursor: pointer;
 }
 
 .experience-button:hover {
-    color: var(--title-color-skills);
+    color: var(--hover-color);
 }
 
 .experience-icon {
@@ -26,7 +26,7 @@
 }
 
 .experience-active {
-    color: var(--title-color-dark);
+    color: var(--text-color);
 }
 
 .experience-sections {
@@ -47,16 +47,17 @@
     display: grid;
     grid-template-columns: 1fr max-content 1fr;
     column-gap: .5rem;
+    margin-bottom: var(--mb-0-75);
 }
 
 .experience-title {
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--font-bold);
 }
 
 .experience-subtitle {
     display: inline-block;
-    font-size: var(--small-font-size);
+    font-size: var(--normal-font-size);
     margin-bottom: none;
     font-weight: var(--font-semi-bold);
 }

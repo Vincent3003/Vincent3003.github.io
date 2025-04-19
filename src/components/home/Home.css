@@ -18,16 +18,15 @@
   
 .home-social-icon {
     font-size: 1.75rem;
-    color: var(--title-color);
+    color: var(--nav-link-color);
 }
   
 .home-social-icon:hover {
-    color: var(--title-color-skills);
+    color: var(--hover-color);
 }
   
 .home-title {
     font-size: var(--big-font-size);
-    margin-bottom: var(--mb-0-25);
 }
   
 .home-hand {
@@ -42,6 +41,7 @@
     text-align: center;
     font-weight: var(--font-semi-bold);
     margin-bottom: var(--mb-1);
+    margin-top: var(--mb-1-5);
 }
 
 .button-container {
@@ -55,11 +55,13 @@
 
 .button {
   text-align: center;
-  font-size: var(--normal-font-size);
+  font-size: var(--h3-font-size);
+  color: var(--background-color);
+  background-color: var(--section-heading-color);
 }
 
 .button:hover {
-  background-color: var(--title-color-skills);
+  background-color: var(--hover-color);
   color: var(--body-color);
 }
   
@@ -95,12 +97,12 @@
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    box-shadow: inset 0 0 0 9px rgb(255 255 255 / 30%);
+    box-shadow: inset 0 0 0 9px var(--section-heading-color / 30%);
     order: 3;
     justify-self: right;
     width: 300px;
     height: 300px;
-    animation: profile-animate 8s ease-in-out infinite 1s;
+    animation: profile-animate 10s ease-in-out infinite 3s;
 }
   
 @keyframes profile-animate {

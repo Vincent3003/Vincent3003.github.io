@@ -138,7 +138,7 @@ const Projects = () => {
                         <div className="projects-icon">
                             <img className="projects-img" src={Project2} alt="Unemployment Project"></img>
                             <h3 className="projects-title">
-                            Predicting Layoff Patterns<br /> Based on Company <br/> Atributes
+                            Predicting Layoff Patterns Based on Company Atributes
                             </h3>
                         </div>
 
@@ -262,7 +262,7 @@ const Projects = () => {
                         <div className="projects-icon">
                             <img className="projects-img" alt="" src={Project3}></img>
                             <h3 className="projects-title">
-                            Personalized Skincare<br />Recommendations Based<br /> on Demographic Analysis
+                            Smart Skincare Recommendations by Demographics
                             </h3>
                         </div>
 

@@ -60,8 +60,8 @@ const Data = () => {
 
           <h3 className="home-subtitle">Data Analyst</h3>
           <p className="home-description">
-          I thrive on transforming data into meaningful insights and continuously strive to sharpen my skills 
-          in this fast-evolving, data-driven world.
+          I am passionate in transforming data into meaningful insights and continuously striving to sharpen my skills 
+          in this ever-changing, data-driven world.
           </p>
 
           <div className="button-container">

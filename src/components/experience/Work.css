@@ -25,10 +25,6 @@
     margin-right: var(--mb-0-25);
 }
 
-.experience-active {
-    color: var(--text-color);
-}
-
 .experience-sections {
     display: grid;
     grid-template-columns: 0.5fr;

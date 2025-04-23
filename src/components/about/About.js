@@ -15,7 +15,7 @@ const About = () => {
 
                     <div className="about-data">
                         <Info />
-
+                        <h3 className="about-title"> <i class="fas fa-user-circle"></i> More About Me</h3>
                         <p className="about-description">
                         Hi! I'm Chi (Alison) Dang — an international student from Vietnam and recent graduate of Drake University with a 
                         B.S. in Computer Science and Data Analytics, along with a minor in Business Administration. </p>

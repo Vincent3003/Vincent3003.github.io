@@ -37,7 +37,7 @@
 }
 
 .about-title {
-    font-size: var(--normal-font-size);
+    font-size: var(--h3-font-size);
     font-weight: var(--font-semi-bold);
     color: var(--section-heading-color);
     font-family: var(--lora-font);

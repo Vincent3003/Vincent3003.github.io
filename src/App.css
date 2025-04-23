@@ -45,10 +45,10 @@ code {
   --lora-font: "Lora", serif;
 
   /*.5rem = 8px | 1rem = 16px ...*/
-  --big-font-size: 3.5rem;
+  --big-font-size: 3rem;
   --h1-font-size: 2.35rem;
   --h2-font-size: 1.5rem;
-  --h3-font-size: 1.25rem;
+  --h3-font-size: 1.3rem;
   --normal-font-size: 1rem;
   --small-font-size: 0.875rem;
   --smaller-font-size: 0.813rem;
@@ -95,7 +95,7 @@ code {
 [data-theme="dark"]{
   --background-color: #0A122A;
   --section-heading-color: #629BB5;
-  --text-color: #E6E8E6;
+  --text-color: #f3f4f3;
   --sub-text-color: #A8A9AD;
   --container-color: #1C2E4A;
   --nav-link-color: #C1E8FF;

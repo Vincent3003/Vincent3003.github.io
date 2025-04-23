@@ -49,17 +49,19 @@
 .experience-title {
     font-size: var(--h3-font-size);
     font-weight: var(--font-bold);
+    margin-bottom: var(--mb-0-25);
 }
 
 .experience-subtitle {
     display: inline-block;
     font-size: var(--normal-font-size);
-    margin-bottom: none;
+    margin-bottom: var(--mb-0-5);
     font-weight: var(--font-semi-bold);
 }
 
 .experience-calender, .experience-location {
     font-size: var(--small-font-size);
+    margin-bottom: var(--mb-0-25);
 }
 
 .experience-rounder {

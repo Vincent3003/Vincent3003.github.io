@@ -11,7 +11,7 @@ const Footer = () => {
         <footer className={`footer ${isHomePage ? "home-page-footer" : isContactPage ? "contact-page-footer" : ""}`}>            
             <div className="footer-container container">
                 <h2 className="footer-title">
-                    <a href="/" className="footer-link">Chi Dang</a>
+                    <a href="/" className="footer-link">Chi (Alison) Dang</a>
                 </h2>
 
                 <ul className="footer-list">
@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
             
             <span className="footer-copy">
-                &#169; Copyright 2023 Chi Dang. All Rights Reserved
+                &#169; Copyright 2023 Chi Dang
             </span>
         </footer>
     )

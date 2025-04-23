@@ -3,7 +3,7 @@ import React from "react";
 const Programming = () => {
     return (
         <div className="skills-content">
-            <h2 className="skills-title">Programming Language</h2>
+            <h2 className="skills-title">Programming Languages:</h2>
 
             <div className="skills-box">
                 <div className="skills-group">
@@ -11,8 +11,8 @@ const Programming = () => {
                         <i className="fa-regular fa-circle-check"></i>
                         
                         <div>
-                            <h3 className="skills-name">Python</h3>
-                            <span className="skills-level">Advanced</span>
+                            <h3 className="skills-name">Advanced:</h3>
+                            <span className="skills-level">Python, R, SQL</span>
                         </div>
                     </div>
 
@@ -20,8 +20,8 @@ const Programming = () => {
                         <i className="fa-regular fa-circle-check"></i>
                         
                         <div>
-                            <h3 className="skills-name">R</h3>
-                            <span className="skills-level">Advanced</span>
+                            <h3 className="skills-name">Intermediate:</h3>
+                            <span className="skills-level">HTML, CSS, SAS</span>
                         </div>
                     </div>
 
@@ -29,55 +29,8 @@ const Programming = () => {
                         <i className="fa-regular fa-circle-check"></i>
                         
                         <div>
-                            <h3 className="skills-name">SQL</h3>
-                            <span className="skills-level">Advanced</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">SAS</h3>
-                            <span className="skills-level">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="skills-group">
-                    <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">Java</h3>
-                            <span className="skills-level">Basics</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">JavaScript</h3>
-                            <span className="skills-level">Basics</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">HTML</h3>
-                            <span className="skills-level">Basics</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">CSS</h3>
-                            <span className="skills-level">Basics</span>
+                            <h3 className="skills-name">Basic:</h3>
+                            <span className="skills-level">Java, JavaScript</span>
                         </div>
                     </div>
                 </div>

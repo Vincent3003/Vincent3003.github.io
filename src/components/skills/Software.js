@@ -3,7 +3,7 @@ import React from "react";
 const Software = () => {
     return (
         <div className="skills-content">
-            <h3 className="skills-title">Software</h3>
+            <h2 className="skills-title">Tools & Platforms</h2>
 
             <div className="skills-box">
                 <div className="skills-group">
@@ -11,8 +11,8 @@ const Software = () => {
                         <i className="fa-regular fa-circle-check"></i>
                         
                         <div>
-                            <h3 className="skills-name">MySQL</h3>
-                            <span className="skills-level">Advanced</span>
+                            <h3 className="skills-name">Advanced</h3>
+                            <span className="skills-level">MySQL, PostgreSQL, RStudio, Microsoft Excel</span>
                         </div>
                     </div>
 
@@ -20,8 +20,8 @@ const Software = () => {
                         <i className="fa-regular fa-circle-check"></i>
                         
                         <div>
-                            <h3 className="skills-name">RStudio</h3>
-                            <span className="skills-level">Advanced</span>
+                            <h3 className="skills-name">Intermediate</h3>
+                            <span className="skills-level">Denodo, QuickBooks</span>
                         </div>
                     </div>
 
@@ -29,64 +29,8 @@ const Software = () => {
                         <i className="fa-regular fa-circle-check"></i>
                         
                         <div>
-                            <h3 className="skills-name">Denodo</h3>
-                            <span className="skills-level">Intermediate</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">QuickBooks</h3>
-                            <span className="skills-level">Intermediate</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">GitHub</h3>
-                            <span className="skills-level">Intermediate</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="skills-group">
-                <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">Git</h3>
-                            <span className="skills-level">Basics</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">PowerBI</h3>
-                            <span className="skills-level">Basics</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">Jira</h3>
-                            <span className="skills-level">Basics</span>
-                        </div>
-                    </div>
-
-                    <div className="skills-data">
-                        <i className="fa-regular fa-circle-check"></i>
-                        
-                        <div>
-                            <h3 className="skills-name">Figma</h3>
-                            <span className="skills-level">Basics</span>
+                            <h3 className="skills-name">Basic</h3>
+                            <span className="skills-level">GitHub, Git, Figma, Jira, PowerBI, Tableau, TeamDynamix</span>
                         </div>
                     </div>
                 </div>

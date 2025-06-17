@@ -426,7 +426,7 @@ const Projects = () => {
                         <div className="projects-icon">
                             <img className="projects-img" src={Project5} alt="Diamond Project"></img>
                             <h3 className="projects-title">
-                            Coming Soon!!!
+                            Diamond Quality vs. Price Tradeoff: Finding the Best Value Combinations
                             </h3>
                         </div>
 

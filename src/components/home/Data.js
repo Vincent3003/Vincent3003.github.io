@@ -58,7 +58,7 @@ const Data = () => {
           </svg>
           </h1>
 
-          <h3 className="home-subtitle">Data Analyst | Business Analyst</h3>
+          <h3 className="home-subtitle">Data Analyst</h3>
           <p className="home-description">
           I am passionate about transforming data into meaningful insights and continuously striving to sharpen my skills 
           in this ever-changing, data-driven world.

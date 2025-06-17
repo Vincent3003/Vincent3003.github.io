@@ -47,7 +47,7 @@
 .home-subtitle::before {
   content: "";
   position: absolute;
-  width: 20px;
+  width: 80px;
   height: 1px;
   background-color: var(--text-color);
   left: 0;
@@ -57,7 +57,7 @@
 .home-subtitle::after {
 content: "";
 position: absolute;
-width: 20px;
+width: 80px;
 height: 1px;
 background-color: var(--text-color);
 right: 0;

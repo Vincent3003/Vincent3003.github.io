@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Projects.css";
-import Project1 from "../../assets/_.jpeg";
+import Project1 from "../../assets/project1.jpg";
 import Project2 from "../../assets/project2.jpg";
 import Project3 from "../../assets/project3.jpeg";
 import Project4 from "../../assets/project4.jpeg";
@@ -23,7 +23,7 @@ const Projects = () => {
                 <div className="projects-container container grid">
                     <div className="projects-content">
                         <div className="projects-icon">
-                            <img className="projects-img" src={Project1} alt="SKincare Project"></img>
+                            <img className="projects-img" src={Project1} alt="Skincare Project"></img>
                             <h3 className="projects-title">
                             Sales Analyst for<br /> The Glow Company
                             </h3>
@@ -550,119 +550,6 @@ const Projects = () => {
                         </div>
                     </div>
 
-                    <div className="projects-content">
-                        <div className="projects-icon">
-                            <img className="projects-img" src={Project5} alt="Diamond Project"></img>
-                            <h3 className="projects-title">
-                            Coming Soon!!!
-                            </h3>
-                        </div>
-
-                        <span onClick={() => toggleTab(5)} className="projects-button">
-                            View More
-                            <i className="fa-solid fa-arrow-right projects-button-icon"></i>
-                        </span>
-
-                        <div className={toggleState === 5 ? "projects-modal active-modal" : "projects-modal"}>
-                            <div className="projects-modal-content">
-                                <i onClick={() => toggleTab(0)} className="fa-solid fa-xmark projects-modal-close"></i>
-                                <h2 className="projects-modal-title">Coming Soon!!!</h2>
-                                <h4 className="projects-modal-subtitle">Data Analyst Project</h4>
-                                <p className="projects-modal-description"><b>🧠 Project Overview: </b>
-
-                                </p>
-
-                                <ul className="projects-modal-services grid">
-                                    <li className="projects-modal-service">
-                                    {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                    <p className="projects-modal-info"> <b>⚠️ Key challenges:</b> </p>
-                                    </li>
-                                    <ul className="projects-modal-info list">
-                                        <li className="projects-modal-info-list">
-                                        
-                                        </li>
-                                        <li className="projects-modal-info-list">
-                                        
-                                        </li>
-                                        <li className="projects-modal-info-list">
-                                        
-                                        </li>
-                                    </ul>
-
-                                    <li className="projects-modal-service">
-                                    {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                    <p className="projects-modal-info"><b>🎯 Objectives: </b></p>
-                                    </li>
-                                    <ul className="projects-modal-info list">
-                                        <li className="projects-modal-info-list">
-                                        
-                                        </li>
-                                        <li className="projects-modal-info-list">
-
-                                        </li>
-                                        <li className="projects-modal-info-list">
-                                        
-                                        </li>
-                                    </ul>
-
-                                    <li className="projects-modal-service">
-                                    {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                    <p className="projects-modal-info"><b>🛠️ Method & Tools: </b></p>
-                                    </li>
-                                    <ul className="projects-modal-info list">
-                                        <li className="projects-modal-info-list">
-                                            
-                                        </li>
-                                        <li className="projects-modal-info-list">
-
-                                        </li>
-                                        <li className="projects-modal-info-list">
-
-                                        </li>
-                                    </ul>
-
-                                    <li className="projects-modal-service">
-                                    {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                    <p className="projects-modal-info"><b>📈 Impact & Insights:</b></p>
-                                    </li>
-                                    <ul className="projects-modal-info list">
-                                        <li className="projects-modal-info-list">
-
-                                        </li>
-                                        <li className="projects-modal-info-list">
-
-                                        </li>
-                                        <li className="projects-modal-info-list">
-
-                                        </li>
-                                        <li className="projects-modal-info-list">
-
-                                        </li>
-                                    </ul>
-
-                                    <li className="projects-modal-service">
-                                    {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                    <p className="projects-modal-info"><b>📌 Conclusion & Strategic Recommendations:</b></p>
-                                    </li>
-                                    <ul className="projects-modal-info list">
-                                        <li className="projects-modal-info-list">
-
-                                        </li>
-                                        <li className="projects-modal-info-list">
-                                        
-                                        
-                                        </li>
-                                    </ul>
-
-                                    <li className="projects-modal-service link">
-                                        {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                        <p className="projects-modal-info"> <b>🔗 View Full Report: </b> </p>
-                                        <a href="https://github.com/Vincent3003/Analyze-Layoff-Data" className="projects-modal-link"> Click here</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
                 </div>
            </section>
        </React.Fragment>

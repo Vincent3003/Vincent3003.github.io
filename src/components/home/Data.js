@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../../assets/ChiDangResume.pdf";
+import Resume from "../../assets/Chi_Dang_Resume.pdf";
 import { NavLink } from "react-router-dom";
 
 

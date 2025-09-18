@@ -88,7 +88,7 @@ const Experience = () => {
                     </div>
                 </div>
 
-                {/* experience Experience tabs */}
+                {/* Work Experience tabs */}
                 <div className="experience-sections">
                     <div className={toggleState === 2 ? "experience-content experience-content-active" : "experience-content"}>
                         <div className="experience-data">

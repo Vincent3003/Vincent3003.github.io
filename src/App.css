@@ -28,12 +28,12 @@ code {
 
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --background-color: #B9D8E1;
+  --background-color: #143080;
   --section-heading-color: #629BB5;
-  --text-color: #1B1B1B;
+  --text-color: #f3f4f3;
   --sub-text-color: #121524;
-  --container-color: #BDC4D4;
-  --nav-link-color: #1C2E4A;
+  --container-color: #1C2E4A;
+  --nav-link-color: #C1E8FF;
   --hover-color: #69A06C; 
 
   /*========== Font and typography ==========*/
@@ -93,7 +93,7 @@ code {
 }
 
 [data-theme="dark"]{
-  --background-color: #0A122A;
+  --background-color: #040919;
   --section-heading-color: #629BB5;
   --text-color: #f3f4f3;
   --sub-text-color: #A8A9AD;

@@ -7,7 +7,6 @@ import Project4 from "../../assets/project4.jpeg";
 import Project5 from "../../assets/project5.jpeg";
 import Project10 from "../../assets/sudoku.jpg";
 
-
 const Projects = () => {
     const [activeTab, setActiveTab] = useState(1); 
     const [openModal, setOpenModal] = useState(null); // null or 3/4/6/7/8/10...
@@ -66,46 +65,11 @@ const Projects = () => {
                                         <h2 className="projects-modal-title">Sales Data Analyst for The Glow Co.</h2>
                                         <h4 className="projects-modal-subtitle">Data Analytics project</h4>
                                         <p className="projects-modal-description"> <b>🧠 Project Overview: </b> 
-                                        Partnered with The Glow Co.’s marketing team to analyze sales and customer data to uncover key insights 
-                                        into product performance, promotional effectiveness, and customer engagement. The goal was to drive
-                                        data-informed decisions across marketing and inventory strategy.
+                                        Analyzed skincare sales data to identify revenue drivers, evaluate 
+                                        promotional effectiveness, and understand customer preferences.
                                         </p>
 
                                         <ul className="projects-modal-services grid">
-                                            <li className="projects-modal-service">
-                                                {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                                <p className="projects-modal-info"> <b>⚠️ Key challenges: </b>
-                                                </p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list">
-                                                    Limited visibility into top-performing products and their revenue contributions.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Difficulty evaluating promotional strategies (e.g., Sephora-exclusive, online-only).
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Inconsistent performance across product categories.
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            
-
-                                            <li className="projects-modal-service">
-                                            {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"><b>🎯 Objectives: </b></p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list">
-                                                    Identify high-performing products and revenue drivers.                                        
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Assess promotional channel effectiveness.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Understand customer preferences by category to inform future campaigns.
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            
                                             <li className="projects-modal-service">
                                                 {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
                                                 <p className="projects-modal-info"> <b>🛠️ Method & Tools: </b> </p>
@@ -125,37 +89,27 @@ const Projects = () => {
 
                                             <li className="projects-modal-service">
                                                 {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                                <p className="projects-modal-info"><b>📈 Impact & Insights:</b></p>
+                                                <p className="projects-modal-info"><b>💰 Key Results:</b></p>
                                                 <ul className="projects-modal-info list">
                                                     <li className="projects-modal-info-list">
-                                                        <b>🏆 Bestsellers Identified:</b> Highlighted top-performing products like “Lip Sleeping Mask” and “Crème de la Mer,” which together drove over $500K in revenue.
+                                                        🏆 Identified top 2 products driving $500K+ revenue
                                                     </li>
                                                     <li className="projects-modal-info-list">
-                                                        <b>📢 Promotional Performance:</b> Sephora-exclusive products contributed over 50% of sales; online-only products drove 47.66% of total volume, demonstrating the significant influence of these distribution channels​.
+                                                        📢 Found Sephora-exclusive products = 50% of sales
                                                     </li>
                                                     <li className="projects-modal-info-list">
-                                                        <b>👥 Customer Trends:</b> Moisturizers, treatments, and cleansers were the most engaging categories, with skincare products showing the strongest customer retention.
+                                                        📈 Discovered online channels drive 47.66% of volume
+                                                    </li>
+                                                    <li className="projects-modal-info-list">
+                                                        👥 Recommended focus on high-performing skincare segments
                                                     </li>
                                                 </ul>
                                             </li>
-                                            
 
-                                            <li className="projects-modal-service">
-                                                {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                                <p className="projects-modal-info"><b>📌 Conclusion & Strategic Recommendations:</b></p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list"> <b>✅ Conclusion: </b>
-                                                    Doubling down on high-performing skincare segments and prioritizing Sephora-exclusive and online sales channels can meaningfully boost engagement and revenue. 
-                                                    </li>
-                                                    <li className="projects-modal-info-list"> <b>🔁 Recommendations: </b>
-                                                    Implement a balanced multi-channel strategy to optimize product performance, and develop tailored campaigns for underperforming segments like eye care and sunscree.</li>
-                                                </ul>
-                                            </li>
                                             
-
                                             <li className="projects-modal-service link">
                                                 {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                                <p className="projects-modal-info"> <b>🔗 View Full Repor: </b> </p>
+                                                <p className="projects-modal-info"> <b>🔗 View Full Report: </b> </p>
                                                 <a href="https://github.com/Vincent3003/Sales_Analyst" className="projects-modal-link"> Click here</a>
                                             </li>
                                         </ul>
@@ -182,46 +136,11 @@ const Projects = () => {
                                         <h2 className="projects-modal-title">Predicting Layoffs Using Machine Learning on <br/> Company Attributes</h2>
                                         <h4 className="projects-modal-subtitle">Data Science Project</h4>
                                         <p className="projects-modal-description"><b>🧠 Project Overview: </b>
-                                        Explored and modeled layoff trends across industries, locations, and company stages using machine learning. 
-                                        Applied decision trees, random forests, and linear regression to uncover key predictors of layoffs and 
-                                        provide insights into workforce reduction patterns.
+                                        Predicted layoff trends across industries using machine learning 
+                                        to identify key factors driving workforce reductions..
                                         </p>
 
                                         <ul className="projects-modal-services grid">
-                                            <li className="projects-modal-service">
-                                            {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"> <b>⚠️ Key challenges:</b> </p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list">
-                                                    Identified top factors driving layoffs across industries and growth stages.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Analyzed impact of attributes like company location, funding levels, and industry type.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Resolved issues related to missing values, data inconsistencies, and quality.</li>
-                                                </ul>
-                                            </li>
-                                            
-
-                                            <li className="projects-modal-service">
-                                            {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"><b>🎯 Objectives: </b></p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list">
-                                                    Clean and preprocess the layoff data to ensure accuracy and consistency.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Conduct exploratory data analysis (EDA) to identify initial patterns and insights in layoff trends.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Develop predictive models using machine learning techniques to determine key factors affecting 
-                                                    layoffs and to predict layoff trends based on company attributes.
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            
-
                                             <li className="projects-modal-service">
                                             {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
                                             <p className="projects-modal-info"><b>🛠️ Method & Tools: </b></p>
@@ -241,19 +160,19 @@ const Projects = () => {
 
                                             <li className="projects-modal-service">
                                             {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"><b>📈 Impact & Insights:</b></p>
+                                            <p className="projects-modal-info"><b>🔍 Key Findings:</b></p>
                                                 <ul className="projects-modal-info list">
                                                     <li className="projects-modal-info-list">
-                                                        <b>Meta </b>led in total layoffs and funding raised (globally and in the USA).
+                                                    Meta led in total layoffs (global + USA)
                                                     </li>
                                                     <li className="projects-modal-info-list">
-                                                        <b>Q1 2023</b> saw the highest global and U.S. layoff volume.
+                                                    Q1 2023 = highest layoff volume                                               
                                                     </li>
                                                     <li className="projects-modal-info-list">
-                                                        <b>Retail, Consumer, and Other Industries </b>had the highest global layoff counts.
+                                                    Retail, Consumer industries most affected
                                                     </li>
                                                     <li className="projects-modal-info-list">
-                                                        <b>U.S. </b>lled in total layoffs; <b>San Francisco </b>showed the highest city-level concentration.
+                                                    San Francisco had highest city-level concentration
                                                     </li>
                                                 </ul>
                                             </li>
@@ -301,46 +220,11 @@ const Projects = () => {
                                         <h3 className="projects-modal-title">Personalized Skincare Strategies for High-Income Consumers</h3>
                                         <h4 className="projects-modal-subtitle">Data Science Project</h4>
                                         <p className="projects-modal-description"><b>🧠 Project Overview: </b> 
-                                        This project uses the Adult Income Census dataset to identify key demographic and employment factors 
-                                        associated with high-income individuals. We applied machine learning models to develop personalized 
-                                        skincare recommendations, enhancing The Glow Company’s market reach and customer engagement.
+                                        Analyzed census data to identify high-income demographics and 
+                                        create personalized skincare marketing strategies.
                                         </p>
 
                                         <ul className="projects-modal-services grid">
-                                            <li className="projects-modal-service">
-                                            {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"> <b>⚠️ Key challenges:</b> </p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list">
-                                                    Limited understanding of which demographic/employment traits correlate with high-income status.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Difficulty in identifying distinct segments within high-income customers to improve personalized marketing.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Inconsistent personalization in The Glow Company’s recommendation system.
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            
-
-                                            <li className="projects-modal-service">
-                                            {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"><b>🎯 Objectives: </b></p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list">
-                                                    Identify high-impact demographic and employment attributes using census data.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Segment high-income individuals for personalized skincare targeting.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Develop predictive models to optimize marketing and recommendation strategies.
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            
-
                                             <li className="projects-modal-service">
                                             {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
                                             <p className="projects-modal-info"><b>🛠️ Method & Tools: </b></p>
@@ -360,38 +244,23 @@ const Projects = () => {
 
                                             <li className="projects-modal-service">
                                             {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"><b>📈 Impact & Insights:</b></p>
+                                            <p className="projects-modal-info"><b>🔍 Key Findings:</b></p>
                                                 <ul className="projects-modal-info list">
                                                     <li className="projects-modal-info-list"> 
-                                                        <b>Influential Factors: </b>Age, education, and occupation strongly linked to high-income status.
+                                                    Age, education, occupation = strongest income predictors
                                                     </li>
-                                                    <li className="projects-modal-info-list"> <b>Quantitative Insights: </b>
-                                                    Model coefficients quantified variable impacts for targeting.
+                                                    <li className="projects-modal-info-list"> 
+                                                    Created clear high-income customer profiles
                                                     </li>
-                                                    <li className="projects-modal-info-list"> <b>Customer Segmentation: </b>
-                                                    Clear high-income profiles created for product recommendation strategy.
+                                                    <li className="projects-modal-info-list"> 
+                                                    Quantified variable impacts for targeted marketing
+                                                    </li>
+                                                    <li className="projects-modal-info-list"> 
+                                                    Enabled personalized skincare recommendations
                                                     </li>
                                                 </ul>
                                             </li>
                                             
-
-                                            <li className="projects-modal-service">
-                                            {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"><b>📌 Conclusion & Strategic Recommendations:</b></p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list">
-                                                        <b>✅ Conclusion: </b>The predictive models provided actionable insights into high-income 
-                                                        demographics, enabling tailored skincare product strategies.                                        </li>
-                                                    <li className="projects-modal-info-list"> 
-                                                        <b>🔁 Recommendations: </b>
-                                                        <li className="projects-modal-info-sublist">Focus on top-performing segments for customized skincare offerings.</li>
-                                                        <li className="projects-modal-info-sublist">Integrate demographic/employment variables into recommendation engines.</li>
-                                                        <li className="projects-modal-info-sublist">Leverage segmentation insights to increase revenue and satisfaction.</li>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            
-
                                             <li className="projects-modal-service link">
                                                 {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
                                                 <p className="projects-modal-info"> <b>🔗 View Full Report: </b> </p>
@@ -421,50 +290,11 @@ const Projects = () => {
                                         <h2 className="projects-modal-title">Diamond Quality vs. Price Tradeoff: Finding the Best Value Combinations</h2>
                                         <h4 className="projects-modal-subtitle">Data Analyst Project</h4>
                                         <p className="projects-modal-description"><b>🧠 Project Overview: </b>
-                                        This project investigates the relationship between diamond quality attributes—namely cut, color, and 
-                                        clarity—and the price per carat, aimed at guiding first-time or uninformed diamond buyers in making smart, 
-                                        budget-conscious decisions. Using data visualization and analytical techniques, we help identify combinations 
-                                        that deliver optimal visual quality for cost, enabling data-backed purchases rather than brand-driven decisions.
+                                        Help diamond buyers find the best value by analyzing how cut, color, 
+                                        and clarity affect price—avoiding overpaying for minimal quality gains.
                                         </p>
 
                                         <ul className="projects-modal-services grid">
-                                            <li className="projects-modal-service">
-                                            {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"> <b>⚠️ Key challenges:</b> </p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list">
-                                                    <b>Pricing complexity: </b>Diamond pricing is non-linear and influenced by multiple overlapping quality dimensions.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    <b>Perceived vs. actual value: </b>Higher price does not always equate to a perceptible increase in quality.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    <b>Consumer knowledge gap: </b>Many buyers lack understanding of how cut, clarity, and color interact to influence price.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    <b>Feature overlap: </b>Similar combinations (e.g., VS1 vs. VS2) can behave differently in pricing due to brand or market factors.
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                        
-
-                                            <li className="projects-modal-service">
-                                            {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"><b>🎯 Objectives: </b></p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list">
-                                                    Quantify how each quality attribute (cut, color, clarity) contributes to price per carat. 
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Identify value-for-money combinations of quality attributes that offer near-identical visual quality at lower prices.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    Provide evidence-based recommendations for consumers to avoid overpaying for minimal gains in quality.
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            
-
                                             <li className="projects-modal-service">
                                             {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
                                             <p className="projects-modal-info"><b>🛠️ Method & Tools: </b></p>
@@ -477,6 +307,25 @@ const Projects = () => {
                                                     </li>
                                                     <li className="projects-modal-info-list">
                                                         <b>🔥 Heatmaps: </b>Visualized mean price/carat across combinations (e.g., clarity × color, cut × clarity)
+                                                    </li>
+                                                </ul>
+                                            </li>
+
+                                             <li className="projects-modal-service">
+                                            {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
+                                            <p className="projects-modal-info"><b>🔍 Key Findings:</b></p>
+                                                <ul className="projects-modal-info list">
+                                                    <li className="projects-modal-info-list"> 
+                                                    "Ideal" cut outperforms "Premium" in value
+                                                    </li>
+                                                    <li className="projects-modal-info-list"> 
+                                                    VVS1 → VS2 or E → G = 30% savings, minimal visible difference
+                                                    </li>
+                                                    <li className="projects-modal-info-list"> 
+                                                    **Best combo:** Ideal cut + E color + SI1/VS2 clarity
+                                                    </li>
+                                                    <li className="projects-modal-info-list"> 
+                                                    Avoid D color and IF clarity unless for investment
                                                     </li>
                                                 </ul>
                                             </li>
@@ -500,28 +349,6 @@ const Projects = () => {
                                                 </ul>
                                             </li>
                                             
-
-                                            <li className="projects-modal-service">
-                                            {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
-                                            <p className="projects-modal-info"><b>📌 Conclusion & Strategic Recommendations:</b></p>
-                                                <ul className="projects-modal-info list">
-                                                    <li className="projects-modal-info-list">
-                                                    🧠 Educate consumers on the diminishing returns of high-end grades: encourage focusing on balanced combinations rather than chasing perfection.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    💰 Avoid D color and IF clarity unless resale or investment is the goal.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    📊 Encourage Ideal Cut as the most cost-effective cut with maximum brilliance.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    🛍️ "Good Enough" Strategy: VS2 clarity, E or F color, and Ideal cut offer outstanding aesthetics for a fair price.
-                                                    </li>
-                                                    <li className="projects-modal-info-list">
-                                                    🔮 Future addition: Develop a recommendation tool for diamond shoppers to filter optimal combinations based on budget and visual preferences.                                        </li>
-                                                </ul>
-                                            </li>
-
                                             <li className="projects-modal-service link">
                                                 {/* <i className="fa fa-check-circle projects-modal-icon"></i> */}
                                                 <p className="projects-modal-info"> <b>🔗 View Full Report: </b> </p>

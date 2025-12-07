@@ -17,12 +17,13 @@ const About = () => {
                         <Info />
                         <h3 className="about-title"> <i class="fas fa-user-circle"></i> More About Me</h3>
                         <p className="about-description">
-                        Hi! I'm Chi (Alison) Dang — an international student from Vietnam and recent graduate of Drake University with a 
-                        B.S. in Computer Science and Data Analytics, along with a minor in Business Administration. </p>
+                        Hi! My name is Chi (Alison) Dang, an international student from Vietnam who recently graduated 
+                        from Drake University with a Bachelor's degree in Computer Science and Data Analytics, 
+                        along with a minor in Business Administration. </p>
                         <p className="about-description">
                         I bring hands-on experience from EMC Insurance Companies and Drake University’s IT support centers, where 
-                        I sharpened my skills in SQL, communication, and cross-functional collaboration. I'm also proficient in Python, R, 
-                        SQL, JavaScript, and MySQL, and well-versed in tools like Power BI, Tableau, GitHub, and SAS. </p>
+                        I sharpened my skills in SQL, communication, time management, and cross-functional collaboration. I'm also proficient in Python, R, 
+                        SQL, and SAS, and well-versed in tools like Power BI, Tableau, GitHub, and Figma. </p>
                         <p className="about-description">
                         I have worked with key data science libraries such as Pandas, NumPy, Scikit-learn, PyTorch, and TensorFlow, 
                         and I am passionate about transforming complex data into smart, actionable insights through machine learning, 

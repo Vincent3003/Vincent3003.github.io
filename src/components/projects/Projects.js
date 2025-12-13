@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 import "./Projects.css";
 import Project1 from "../../assets/project1.jpg";
 import Project2 from "../../assets/project2.jpg";
-import Project3 from "../../assets/project3.jpeg";
+import Project3 from "../../assets/project3.jpg";
 import Project4 from "../../assets/project4.jpeg";
-import Project5 from "../../assets/project5.jpeg";
+import Project5 from "../../assets/project5.JPG";
 import Project10 from "../../assets/sudoku.jpg";
 
 const Projects = () => {

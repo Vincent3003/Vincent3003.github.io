@@ -358,6 +358,31 @@ const Projects = () => {
                                     </div>
                                 </div>
                             </div>
+
+                            <div className="projects-content">
+                                <div className="projects-icon">
+                                    <img className="projects-img" src={Project10} alt="Sudoku Solver Project"></img>
+                                    <h3 onClick={() => setOpenModal(7)} className="projects-title">
+                                    Pandemic Risk Score
+                                    </h3>
+                                </div>
+
+                                <span onClick={() => setOpenModal(7)} className="projects-button">
+                                    View More
+                                    <i className="fa-solid fa-arrow-right projects-button-icon"></i>
+                                </span>
+
+                                <div className={openModal === 7 ? "projects-modal active-modal" : "projects-modal"}>
+                                    <div className="projects-modal-content">
+                                        <i onClick={() => setOpenModal(null)} className="fa-solid fa-xmark projects-modal-close"></i>
+                                        <h2 className="projects-modal-title">Pandemic Risk Score</h2>
+                                        <h4 className="projects-modal-subtitle">Data Analytics project with applied data science modeling</h4>
+                                        <p className="projects-modal-description"> <b>🧠 Project Overview: Coming soon!!!</b> 
+        
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -368,43 +393,18 @@ const Projects = () => {
                         <div className="projects-container container grid">
                             <div className="projects-content">
                                 <div className="projects-icon">
-                                    <img className="projects-img" src={Project10} alt="Sudoku Solver Project"></img>
-                                    <h3 onClick={() => setOpenModal(10)} className="projects-title">
-                                    Sudoku Solver
-                                    </h3>
-                                </div>
-
-                                <span onClick={() => setOpenModal(10)} className="projects-button">
-                                    View More
-                                    <i className="fa-solid fa-arrow-right projects-button-icon"></i>
-                                </span>
-
-                                <div className={openModal === 10 ? "projects-modal active-modal" : "projects-modal"}>
-                                    <div className="projects-modal-content">
-                                        <i onClick={() => setOpenModal(null)} className="fa-solid fa-xmark projects-modal-close"></i>
-                                        <h2 className="projects-modal-title">Sudoku Solver</h2>
-                                        <h4 className="projects-modal-subtitle">Coding project</h4>
-                                        <p className="projects-modal-description"> <b>🧠 Project Overview: </b> 
-        
-                                        </p>
-                                    </div> 
-                                </div>
-                            </div>
-
-                            <div className="projects-content">
-                                <div className="projects-icon">
                                     <img className="projects-img" alt="" src={Project4}></img>
-                                    <h3 onClick={() => setOpenModal(7)} className="projects-title">
+                                    <h3 onClick={() => setOpenModal(9)} className="projects-title">
                                     Front-end Web<br /> Development
                                     </h3>
                                 </div>
 
-                                <span onClick={() => setOpenModal(7)} className="projects-button">
+                                <span onClick={() => setOpenModal(9)} className="projects-button">
                                     View More
                                     <i className="fa-solid fa-arrow-right projects-button-icon"></i>
                                 </span>
 
-                                <div className={openModal === 7 ? "projects-modal active-modal" : "projects-modal"}>
+                                <div className={openModal === 9 ? "projects-modal active-modal" : "projects-modal"}>
                                     <div className="projects-modal-content">
                                         <i onClick={() => setOpenModal(0)} className="fa-solid fa-xmark projects-modal-close"></i>
 
@@ -447,6 +447,56 @@ const Projects = () => {
                                             </ul>
                                         </ul>
                                     </div>
+                                </div>
+                            </div>
+
+                            <div className="projects-content">
+                                <div className="projects-icon">
+                                    <img className="projects-img" src={Project10} alt="Sudoku Solver Project"></img>
+                                    <h3 onClick={() => setOpenModal(10)} className="projects-title">
+                                    Sudoku Solver
+                                    </h3>
+                                </div>
+
+                                <span onClick={() => setOpenModal(10)} className="projects-button">
+                                    View More
+                                    <i className="fa-solid fa-arrow-right projects-button-icon"></i>
+                                </span>
+
+                                <div className={openModal === 10 ? "projects-modal active-modal" : "projects-modal"}>
+                                    <div className="projects-modal-content">
+                                        <i onClick={() => setOpenModal(null)} className="fa-solid fa-xmark projects-modal-close"></i>
+                                        <h2 className="projects-modal-title">Sudoku Solver</h2>
+                                        <h4 className="projects-modal-subtitle">Coding project</h4>
+                                        <p className="projects-modal-description"> <b>🧠 Project Overview: Coming soon!!!</b> 
+        
+                                        </p>
+                                    </div> 
+                                </div>
+                            </div>
+
+                            <div className="projects-content">
+                                <div className="projects-icon">
+                                    <img className="projects-img" src={Project10} alt="Sudoku Solver Project"></img>
+                                    <h3 onClick={() => setOpenModal(11)} className="projects-title">
+                                    Universe notes
+                                    </h3>
+                                </div>
+
+                                <span onClick={() => setOpenModal(11)} className="projects-button">
+                                    View More
+                                    <i className="fa-solid fa-arrow-right projects-button-icon"></i>
+                                </span>
+
+                                <div className={openModal === 11 ? "projects-modal active-modal" : "projects-modal"}>
+                                    <div className="projects-modal-content">
+                                        <i onClick={() => setOpenModal(null)} className="fa-solid fa-xmark projects-modal-close"></i>
+                                        <h2 className="projects-modal-title">Universe Notes</h2>
+                                        <h4 className="projects-modal-subtitle">Coding project</h4>
+                                        <p className="projects-modal-description"> <b>🧠 Project Overview: Coming soon!!!</b> 
+        
+                                        </p>
+                                    </div> 
                                 </div>
                             </div>
                         </div>

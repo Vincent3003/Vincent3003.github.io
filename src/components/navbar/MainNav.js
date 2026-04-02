@@ -1,5 +1,4 @@
 import React from "react";
-import NavPage from "./NavPage";
 import Navbar from "./Navbar";
 
 const MainNav = () => {
@@ -7,7 +6,6 @@ const MainNav = () => {
         <React.Fragment>
             <section>
                 <Navbar />
-                <NavPage />
             </section>
         </React.Fragment>
     )

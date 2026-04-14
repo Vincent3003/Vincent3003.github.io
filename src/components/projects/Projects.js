@@ -5,7 +5,7 @@ import Project2 from "../../assets/project2.jpg";
 import Project3 from "../../assets/project3.jpg";
 import Project4 from "../../assets/project4.jpeg";
 import Project5 from "../../assets/project5.JPG";
-import Project10 from "../../assets/sudoku.jpg";
+import Project10 from "../../assets/comingsoon.jpg";
 
 const Projects = () => {
     const [activeTab, setActiveTab] = useState(1); 
